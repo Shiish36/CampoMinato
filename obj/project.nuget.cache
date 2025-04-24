@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nSjapBMi8nQ=",
+  "dgSpecHash": "0PfKNT3oyBY=",
   "success": true,
-  "projectFilePath": "C:\\Users\\enrico.hu\\source\\repos\\MauiApp1\\MauiApp1.csproj",
+  "projectFilePath": "C:\\Users\\enrico.hu\\Desktop\\CampoMinato\\MauiApp1\\MauiApp1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\enrico.hu\\.nuget\\packages\\aathifmahir.maui.mauiicons.core\\4.0.0\\aathifmahir.maui.mauiicons.core.4.0.0.nupkg.sha512",
     "C:\\Users\\enrico.hu\\.nuget\\packages\\aathifmahir.maui.mauiicons.fontawesome.solid\\4.0.0\\aathifmahir.maui.mauiicons.fontawesome.solid.4.0.0.nupkg.sha512",
@@ -117,8 +117,7 @@
     "C:\\Users\\enrico.hu\\.nuget\\packages\\xamarin.kotlin.stdlib.jdk7\\1.9.0.1\\xamarin.kotlin.stdlib.jdk7.1.9.0.1.nupkg.sha512",
     "C:\\Users\\enrico.hu\\.nuget\\packages\\xamarin.kotlin.stdlib.jdk8\\1.9.0.1\\xamarin.kotlin.stdlib.jdk8.1.9.0.1.nupkg.sha512",
     "C:\\Users\\enrico.hu\\.nuget\\packages\\xamarin.kotlinx.coroutines.android\\1.7.2.1\\xamarin.kotlinx.coroutines.android.1.7.2.1.nupkg.sha512",
-    "C:\\Users\\enrico.hu\\.nuget\\packages\\xamarin.kotlinx.coroutines.core.jvm\\1.7.2.1\\xamarin.kotlinx.coroutines.core.jvm.1.7.2.1.nupkg.sha512",
-    "C:\\Users\\enrico.hu\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.19041.31\\microsoft.windows.sdk.net.ref.10.0.19041.31.nupkg.sha512"
+    "C:\\Users\\enrico.hu\\.nuget\\packages\\xamarin.kotlinx.coroutines.core.jvm\\1.7.2.1\\xamarin.kotlinx.coroutines.core.jvm.1.7.2.1.nupkg.sha512"
   ],
   "logs": []
 }
