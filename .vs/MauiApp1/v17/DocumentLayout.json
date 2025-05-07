@@ -1,22 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\enrico.hu\\Desktop\\CampoMinato\\MauiApp1\\",
+  "WorkspaceRootPath": "Z:\\CampoMinato\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E9028800-1B51-4FE0-8258-3C724DD4904B}|MauiApp1.csproj|c:\\users\\enrico.hu\\desktop\\campominato\\mauiapp1\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E9028800-1B51-4FE0-8258-3C724DD4904B}|MauiApp1.csproj|z:\\campominato\\viewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9028800-1B51-4FE0-8258-3C724DD4904B}|MauiApp1.csproj|solutionrelative:viewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9028800-1B51-4FE0-8258-3C724DD4904B}|MauiApp1.csproj|z:\\campominato\\mine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9028800-1B51-4FE0-8258-3C724DD4904B}|MauiApp1.csproj|solutionrelative:mine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9028800-1B51-4FE0-8258-3C724DD4904B}|MauiApp1.csproj|z:\\campominato\\model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9028800-1B51-4FE0-8258-3C724DD4904B}|MauiApp1.csproj|solutionrelative:model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9028800-1B51-4FE0-8258-3C724DD4904B}|MauiApp1.csproj|z:\\campominato\\cella.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9028800-1B51-4FE0-8258-3C724DD4904B}|MauiApp1.csproj|solutionrelative:cella.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9028800-1B51-4FE0-8258-3C724DD4904B}|MauiApp1.csproj|Z:\\CampoMinato\\campominato.cd||{59B0B277-7DDF-4E36-A3ED-02DAC5B9E2FA}|",
+      "RelativeMoniker": "D:0:0:{E9028800-1B51-4FE0-8258-3C724DD4904B}|MauiApp1.csproj|solutionrelative:campominato.cd||{59B0B277-7DDF-4E36-A3ED-02DAC5B9E2FA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9028800-1B51-4FE0-8258-3C724DD4904B}|MauiApp1.csproj|z:\\campominato\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E9028800-1B51-4FE0-8258-3C724DD4904B}|MauiApp1.csproj|solutionrelative:mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\enrico.hu\\.nuget\\packages\\communitytoolkit.mvvm\\8.4.0\\buildTransitive\\CommunityToolkit.Mvvm.WindowsSdk.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\enrico.hu\\.nuget\\packages\\aathifmahir.maui.mauiicons.fontawesome.solid\\4.0.0\\ReadMe.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\enrico.hu\\.nuget\\packages\\communitytoolkit.maui\\9.1.1\\ReadMe.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|Z:\\DemoPWMaui\\DemoPWMaui\\MauiProgram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,67 +34,79 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MauiProgram.cs",
-              "DocumentMoniker": "C:\\Users\\enrico.hu\\Desktop\\CampoMinato\\MauiApp1\\MauiProgram.cs",
-              "RelativeDocumentMoniker": "MauiProgram.cs",
-              "ToolTip": "C:\\Users\\enrico.hu\\Desktop\\CampoMinato\\MauiApp1\\MauiProgram.cs",
-              "RelativeToolTip": "MauiProgram.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAABPAAAA",
+              "DocumentIndex": 3,
+              "Title": "Cella.cs",
+              "DocumentMoniker": "Z:\\CampoMinato\\Cella.cs",
+              "RelativeDocumentMoniker": "Cella.cs",
+              "ToolTip": "Z:\\CampoMinato\\Cella.cs",
+              "RelativeToolTip": "Cella.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T06:59:23.107Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CommunityToolkit.Mvvm.WindowsSdk.targets",
-              "DocumentMoniker": "C:\\Users\\enrico.hu\\.nuget\\packages\\communitytoolkit.mvvm\\8.4.0\\buildTransitive\\CommunityToolkit.Mvvm.WindowsSdk.targets",
-              "RelativeDocumentMoniker": "..\\..\\..\\.nuget\\packages\\communitytoolkit.mvvm\\8.4.0\\buildTransitive\\CommunityToolkit.Mvvm.WindowsSdk.targets",
-              "ToolTip": "C:\\Users\\enrico.hu\\.nuget\\packages\\communitytoolkit.mvvm\\8.4.0\\buildTransitive\\CommunityToolkit.Mvvm.WindowsSdk.targets",
-              "RelativeToolTip": "..\\..\\..\\.nuget\\packages\\communitytoolkit.mvvm\\8.4.0\\buildTransitive\\CommunityToolkit.Mvvm.WindowsSdk.targets",
-              "ViewState": "AQIAADwAAAAAAAAAAAAYwFAAAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2025-04-24T07:12:44.995Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-07T10:09:13.395Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ReadMe.txt",
-              "DocumentMoniker": "C:\\Users\\enrico.hu\\.nuget\\packages\\aathifmahir.maui.mauiicons.fontawesome.solid\\4.0.0\\ReadMe.txt",
-              "RelativeDocumentMoniker": "..\\..\\..\\.nuget\\packages\\aathifmahir.maui.mauiicons.fontawesome.solid\\4.0.0\\ReadMe.txt",
-              "ToolTip": "C:\\Users\\enrico.hu\\.nuget\\packages\\aathifmahir.maui.mauiicons.fontawesome.solid\\4.0.0\\ReadMe.txt",
-              "RelativeToolTip": "..\\..\\..\\.nuget\\packages\\aathifmahir.maui.mauiicons.fontawesome.solid\\4.0.0\\ReadMe.txt",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-04-24T07:09:22.654Z"
+              "Title": "Model.cs",
+              "DocumentMoniker": "Z:\\CampoMinato\\Model.cs",
+              "RelativeDocumentMoniker": "Model.cs",
+              "ToolTip": "Z:\\CampoMinato\\Model.cs",
+              "RelativeToolTip": "Model.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAowDkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T09:25:14.354Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ReadMe.txt",
-              "DocumentMoniker": "C:\\Users\\enrico.hu\\.nuget\\packages\\communitytoolkit.maui\\9.1.1\\ReadMe.txt",
-              "RelativeDocumentMoniker": "..\\..\\..\\.nuget\\packages\\communitytoolkit.maui\\9.1.1\\ReadMe.txt",
-              "ToolTip": "C:\\Users\\enrico.hu\\.nuget\\packages\\communitytoolkit.maui\\9.1.1\\ReadMe.txt",
-              "RelativeToolTip": "..\\..\\..\\.nuget\\packages\\communitytoolkit.maui\\9.1.1\\ReadMe.txt",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-04-24T07:08:25.858Z"
+              "DocumentIndex": 1,
+              "Title": "Mine.cs",
+              "DocumentMoniker": "Z:\\CampoMinato\\Mine.cs",
+              "RelativeDocumentMoniker": "Mine.cs",
+              "ToolTip": "Z:\\CampoMinato\\Mine.cs",
+              "RelativeToolTip": "Mine.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACYAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T10:06:07.089Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ViewModel.cs",
+              "DocumentMoniker": "Z:\\CampoMinato\\ViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModel.cs",
+              "ToolTip": "Z:\\CampoMinato\\ViewModel.cs",
+              "RelativeToolTip": "ViewModel.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAwwBgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T10:03:36.373Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "CampoMinato.cd",
+              "DocumentMoniker": "Z:\\CampoMinato\\CampoMinato.cd",
+              "RelativeDocumentMoniker": "CampoMinato.cd",
+              "ToolTip": "Z:\\CampoMinato\\CampoMinato.cd",
+              "RelativeToolTip": "CampoMinato.cd",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000463|",
+              "WhenOpened": "2025-04-30T09:23:42.53Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "MauiProgram.cs",
-              "DocumentMoniker": "Z:\\DemoPWMaui\\DemoPWMaui\\MauiProgram.cs",
-              "ToolTip": "Z:\\DemoPWMaui\\DemoPWMaui\\MauiProgram.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAFAAAA",
+              "DocumentMoniker": "Z:\\CampoMinato\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "MauiProgram.cs",
+              "ToolTip": "Z:\\CampoMinato\\MauiProgram.cs",
+              "RelativeToolTip": "MauiProgram.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T07:01:28.56Z"
+              "WhenOpened": "2025-04-24T06:59:23.107Z"
             }
           ]
         }
