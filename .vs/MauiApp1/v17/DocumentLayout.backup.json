@@ -1,0 +1,116 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "Z:\\CampoMinato\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E9028800-1B51-4FE0-8258-3C724DD4904B}|MauiApp1.csproj|z:\\campominato\\viewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9028800-1B51-4FE0-8258-3C724DD4904B}|MauiApp1.csproj|solutionrelative:viewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9028800-1B51-4FE0-8258-3C724DD4904B}|MauiApp1.csproj|z:\\campominato\\mine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9028800-1B51-4FE0-8258-3C724DD4904B}|MauiApp1.csproj|solutionrelative:mine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9028800-1B51-4FE0-8258-3C724DD4904B}|MauiApp1.csproj|z:\\campominato\\model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9028800-1B51-4FE0-8258-3C724DD4904B}|MauiApp1.csproj|solutionrelative:model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9028800-1B51-4FE0-8258-3C724DD4904B}|MauiApp1.csproj|z:\\campominato\\cella.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9028800-1B51-4FE0-8258-3C724DD4904B}|MauiApp1.csproj|solutionrelative:cella.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9028800-1B51-4FE0-8258-3C724DD4904B}|MauiApp1.csproj|Z:\\CampoMinato\\campominato.cd||{59B0B277-7DDF-4E36-A3ED-02DAC5B9E2FA}|",
+      "RelativeMoniker": "D:0:0:{E9028800-1B51-4FE0-8258-3C724DD4904B}|MauiApp1.csproj|solutionrelative:campominato.cd||{59B0B277-7DDF-4E36-A3ED-02DAC5B9E2FA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9028800-1B51-4FE0-8258-3C724DD4904B}|MauiApp1.csproj|z:\\campominato\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9028800-1B51-4FE0-8258-3C724DD4904B}|MauiApp1.csproj|solutionrelative:mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Cella.cs",
+              "DocumentMoniker": "Z:\\CampoMinato\\Cella.cs",
+              "RelativeDocumentMoniker": "Cella.cs",
+              "ToolTip": "Z:\\CampoMinato\\Cella.cs",
+              "RelativeToolTip": "Cella.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T10:09:13.395Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Model.cs",
+              "DocumentMoniker": "Z:\\CampoMinato\\Model.cs",
+              "RelativeDocumentMoniker": "Model.cs",
+              "ToolTip": "Z:\\CampoMinato\\Model.cs",
+              "RelativeToolTip": "Model.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAowDkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T09:25:14.354Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Mine.cs",
+              "DocumentMoniker": "Z:\\CampoMinato\\Mine.cs",
+              "RelativeDocumentMoniker": "Mine.cs",
+              "ToolTip": "Z:\\CampoMinato\\Mine.cs",
+              "RelativeToolTip": "Mine.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACYAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T10:06:07.089Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ViewModel.cs",
+              "DocumentMoniker": "Z:\\CampoMinato\\ViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModel.cs",
+              "ToolTip": "Z:\\CampoMinato\\ViewModel.cs",
+              "RelativeToolTip": "ViewModel.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAwwBgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T10:03:36.373Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CampoMinato.cd",
+              "DocumentMoniker": "Z:\\CampoMinato\\CampoMinato.cd",
+              "RelativeDocumentMoniker": "CampoMinato.cd",
+              "ToolTip": "Z:\\CampoMinato\\CampoMinato.cd",
+              "RelativeToolTip": "CampoMinato.cd",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000463|",
+              "WhenOpened": "2025-04-30T09:23:42.53Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "Z:\\CampoMinato\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "MauiProgram.cs",
+              "ToolTip": "Z:\\CampoMinato\\MauiProgram.cs",
+              "RelativeToolTip": "MauiProgram.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T06:59:23.107Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
