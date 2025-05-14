@@ -24,8 +24,12 @@ androidgeneratejnimarshalmethods=false
 os=windows_nt
 androidincludedebugsymbols=true
 androidpackagenamingpolicy=lowercasecrc64
+<<<<<<< HEAD
 _nugetassetstimestamp=638828229045400109
+=======
+_nugetassetstimestamp=638828225760636373
+>>>>>>> 4ac26fd5baa51d486815ee5a51121f7bd48ca9f1
 typemapkind=strings-asm
 androidmanifestplaceholders=
-projectfullpath=c:\users\joar.jonuzi\desktop\campominato\mauiapp1.csproj
+projectfullpath=c:\users\christian pio.russo\desktop\campominato\mauiapp1.csproj
 androidusedesignerassembly=true

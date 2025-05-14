@@ -35981,11 +35981,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\joar.jonuzi\\Desktop\\CampoMinato\\MauiApp1.csproj",
+      "projectUniqueName": "C:\\Users\\christian pio.russo\\Desktop\\CampoMinato\\MauiApp1.csproj",
       "projectName": "MauiApp1",
-      "projectPath": "C:\\Users\\joar.jonuzi\\Desktop\\CampoMinato\\MauiApp1.csproj",
+      "projectPath": "C:\\Users\\christian pio.russo\\Desktop\\CampoMinato\\MauiApp1.csproj",
       "packagesPath": "C:\\Users\\w10\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\joar.jonuzi\\Desktop\\CampoMinato\\obj\\",
+      "outputPath": "C:\\Users\\christian pio.russo\\Desktop\\CampoMinato\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [

@@ -1,8 +1,12 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "N3pmhkznOV8=",
+=======
+  "dgSpecHash": "U7wD6jOK1Ws=",
+>>>>>>> 4ac26fd5baa51d486815ee5a51121f7bd48ca9f1
   "success": true,
-  "projectFilePath": "C:\\Users\\joar.jonuzi\\Desktop\\CampoMinato\\MauiApp1.csproj",
+  "projectFilePath": "C:\\Users\\christian pio.russo\\Desktop\\CampoMinato\\MauiApp1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\w10\\.nuget\\packages\\aathifmahir.maui.mauiicons.core\\4.0.0\\aathifmahir.maui.mauiicons.core.4.0.0.nupkg.sha512",
     "C:\\Users\\w10\\.nuget\\packages\\aathifmahir.maui.mauiicons.fontawesome.solid\\4.0.0\\aathifmahir.maui.mauiicons.fontawesome.solid.4.0.0.nupkg.sha512",
