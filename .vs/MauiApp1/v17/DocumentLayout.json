@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\joar.jonuzi\\Desktop\\CampoMinato\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E9028800-1B51-4FE0-8258-3C724DD4904B}|MauiApp1.csproj|c:\\users\\joar.jonuzi\\desktop\\campominato\\viewmodels\\campodigiocoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9028800-1B51-4FE0-8258-3C724DD4904B}|MauiApp1.csproj|solutionrelative:viewmodels\\campodigiocoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9028800-1B51-4FE0-8258-3C724DD4904B}|MauiApp1.csproj|c:\\users\\joar.jonuzi\\desktop\\campominato\\viewmodels\\cellaviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9028800-1B51-4FE0-8258-3C724DD4904B}|MauiApp1.csproj|solutionrelative:viewmodels\\cellaviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E9028800-1B51-4FE0-8258-3C724DD4904B}|MauiApp1.csproj|c:\\users\\joar.jonuzi\\desktop\\campominato\\models\\campodigioco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E9028800-1B51-4FE0-8258-3C724DD4904B}|MauiApp1.csproj|solutionrelative:models\\campodigioco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E9028800-1B51-4FE0-8258-3C724DD4904B}|MauiApp1.csproj|c:\\users\\joar.jonuzi\\desktop\\campominato\\models\\cella.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E9028800-1B51-4FE0-8258-3C724DD4904B}|MauiApp1.csproj|solutionrelative:models\\cella.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9028800-1B51-4FE0-8258-3C724DD4904B}|MauiApp1.csproj|c:\\users\\joar.jonuzi\\desktop\\campominato\\viewmodels\\campodigiocoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9028800-1B51-4FE0-8258-3C724DD4904B}|MauiApp1.csproj|solutionrelative:viewmodels\\campodigiocoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9028800-1B51-4FE0-8258-3C724DD4904B}|MauiApp1.csproj|c:\\users\\joar.jonuzi\\desktop\\campominato\\viewmodels\\cellaviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9028800-1B51-4FE0-8258-3C724DD4904B}|MauiApp1.csproj|solutionrelative:viewmodels\\cellaviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E9028800-1B51-4FE0-8258-3C724DD4904B}|MauiApp1.csproj|c:\\users\\joar.jonuzi\\desktop\\campominato\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -45,10 +45,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{E9028800-1B51-4FE0-8258-3C724DD4904B}|MauiApp1.csproj|c:\\users\\joar.jonuzi\\desktop\\campominato\\difficolt\u00E0gioco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E9028800-1B51-4FE0-8258-3C724DD4904B}|MauiApp1.csproj|solutionrelative:difficolt\u00E0gioco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9028800-1B51-4FE0-8258-3C724DD4904B}|MauiApp1.csproj|C:\\Users\\joar.jonuzi\\Desktop\\CampoMinato\\campominato.cd||{59B0B277-7DDF-4E36-A3ED-02DAC5B9E2FA}|",
-      "RelativeMoniker": "D:0:0:{E9028800-1B51-4FE0-8258-3C724DD4904B}|MauiApp1.csproj|solutionrelative:campominato.cd||{59B0B277-7DDF-4E36-A3ED-02DAC5B9E2FA}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,32 +54,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 8,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "CampoDiGiocoViewModel.cs",
               "DocumentMoniker": "C:\\Users\\joar.jonuzi\\Desktop\\CampoMinato\\ViewModels\\CampoDiGiocoViewModel.cs",
               "RelativeDocumentMoniker": "ViewModels\\CampoDiGiocoViewModel.cs",
               "ToolTip": "C:\\Users\\joar.jonuzi\\Desktop\\CampoMinato\\ViewModels\\CampoDiGiocoViewModel.cs",
               "RelativeToolTip": "ViewModels\\CampoDiGiocoViewModel.cs",
-              "ViewState": "AQIAACEAAAAAAAAAAAAAADQAAAARAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADQAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-10T06:09:21.419Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MainPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\joar.jonuzi\\Desktop\\CampoMinato\\MainPage.xaml.cs",
-              "RelativeDocumentMoniker": "MainPage.xaml.cs",
-              "ToolTip": "C:\\Users\\joar.jonuzi\\Desktop\\CampoMinato\\MainPage.xaml.cs",
-              "RelativeToolTip": "MainPage.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAvAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-08T08:19:36.158Z"
             },
             {
               "$type": "Document",
@@ -95,7 +83,8 @@
               "RelativeToolTip": "AppShell.xaml.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-08T08:19:03.13Z"
+              "WhenOpened": "2025-05-08T08:19:03.13Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -143,37 +132,38 @@
               "RelativeToolTip": "Difficolt\u00E0Gioco.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-08T08:12:40.891Z"
+              "WhenOpened": "2025-05-08T08:12:40.891Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Cella.cs",
               "DocumentMoniker": "C:\\Users\\joar.jonuzi\\Desktop\\CampoMinato\\Models\\Cella.cs",
               "RelativeDocumentMoniker": "Models\\Cella.cs",
               "ToolTip": "C:\\Users\\joar.jonuzi\\Desktop\\CampoMinato\\Models\\Cella.cs",
               "RelativeToolTip": "Models\\Cella.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAeAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-07T10:09:13.395Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "CampoDiGioco.cs",
               "DocumentMoniker": "C:\\Users\\joar.jonuzi\\Desktop\\CampoMinato\\Models\\CampoDiGioco.cs",
               "RelativeDocumentMoniker": "Models\\CampoDiGioco.cs",
               "ToolTip": "C:\\Users\\joar.jonuzi\\Desktop\\CampoMinato\\Models\\CampoDiGioco.cs",
               "RelativeToolTip": "Models\\CampoDiGioco.cs",
-              "ViewState": "AQIAAD0AAAAAAAAAAAAiwFEAAAARAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-30T09:25:14.354Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "CellaViewModel.cs",
               "DocumentMoniker": "C:\\Users\\joar.jonuzi\\Desktop\\CampoMinato\\ViewModels\\CellaViewModel.cs",
               "RelativeDocumentMoniker": "ViewModels\\CellaViewModel.cs",
@@ -186,14 +176,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "CampoMinato.cd",
-              "DocumentMoniker": "C:\\Users\\joar.jonuzi\\Desktop\\CampoMinato\\CampoMinato.cd",
-              "RelativeDocumentMoniker": "CampoMinato.cd",
-              "ToolTip": "C:\\Users\\joar.jonuzi\\Desktop\\CampoMinato\\CampoMinato.cd",
-              "RelativeToolTip": "CampoMinato.cd",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000463|",
-              "WhenOpened": "2025-04-30T09:23:42.53Z"
+              "DocumentIndex": 4,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\joar.jonuzi\\Desktop\\CampoMinato\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\joar.jonuzi\\Desktop\\CampoMinato\\MainPage.xaml.cs",
+              "RelativeToolTip": "MainPage.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T08:19:36.158Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -205,7 +197,8 @@
               "RelativeToolTip": "MauiProgram.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T06:59:23.107Z"
+              "WhenOpened": "2025-04-24T06:59:23.107Z",
+              "EditorCaption": ""
             }
           ]
         }

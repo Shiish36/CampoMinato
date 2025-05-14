@@ -5,7 +5,7 @@ using System.Text;
 
 namespace MauiApp1.Models
 {
-    public class CampoDiGioco
+    public class CampoDiGioco : Cella
     {
         private int _lunghezzaCampo;
         public int LunghezzaCampo
@@ -46,7 +46,7 @@ namespace MauiApp1.Models
                 _quantitàMine = value;
             }
         }
-        public Cella[,] Campo { get; private set; }
+        public Cella[,] Campo { get; private set; } //grid per la gestione delle celle, cioè il campo di gioco
 
         public CampoDiGioco(int lunghezza, int larghezza, int quantitàMine)
         {
@@ -64,8 +64,6 @@ namespace MauiApp1.Models
                     Campo[i, j] = new Cella();
                 }
             }
-
-
             GeneraMineCasuali();
         }
         private void GeneraMineCasuali()
@@ -92,7 +90,6 @@ namespace MauiApp1.Models
             {
                 for (int j = y - 1; j <= y + 1; j++)
                 {
-                    // Controlla che le coordinate siano valide
                     if (i >= 0 && i < LunghezzaCampo && j >= 0 && j < LarghezzaCampo)
                     {
                         if (!Campo[i, j].ContieneMina)
