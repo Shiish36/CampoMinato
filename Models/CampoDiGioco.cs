@@ -5,7 +5,7 @@ using System.Text;
 
 namespace MauiApp1.Models
 {
-    public class CampoDiGioco : Cella
+    public class CampoDiGioco 
     {
         private int _lunghezzaCampo;
         public int LunghezzaCampo

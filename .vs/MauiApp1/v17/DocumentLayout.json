@@ -1,49 +1,64 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\joar.jonuzi\\Desktop\\CampoMinato\\",
+  "WorkspaceRootPath": "C:\\Users\\christian pio.russo\\Desktop\\CampoMinato\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E9028800-1B51-4FE0-8258-3C724DD4904B}|MauiApp1.csproj|c:\\users\\joar.jonuzi\\desktop\\campominato\\models\\campodigioco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9028800-1B51-4FE0-8258-3C724DD4904B}|MauiApp1.csproj|solutionrelative:models\\campodigioco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E9028800-1B51-4FE0-8258-3C724DD4904B}|MauiApp1.csproj|c:\\users\\christian pio.russo\\desktop\\campominato\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{E9028800-1B51-4FE0-8258-3C724DD4904B}|MauiApp1.csproj|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E9028800-1B51-4FE0-8258-3C724DD4904B}|MauiApp1.csproj|c:\\users\\joar.jonuzi\\desktop\\campominato\\models\\cella.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9028800-1B51-4FE0-8258-3C724DD4904B}|MauiApp1.csproj|solutionrelative:models\\cella.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9028800-1B51-4FE0-8258-3C724DD4904B}|MauiApp1.csproj|c:\\users\\joar.jonuzi\\desktop\\campominato\\viewmodels\\campodigiocoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9028800-1B51-4FE0-8258-3C724DD4904B}|MauiApp1.csproj|solutionrelative:viewmodels\\campodigiocoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9028800-1B51-4FE0-8258-3C724DD4904B}|MauiApp1.csproj|c:\\users\\joar.jonuzi\\desktop\\campominato\\viewmodels\\cellaviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9028800-1B51-4FE0-8258-3C724DD4904B}|MauiApp1.csproj|solutionrelative:viewmodels\\cellaviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9028800-1B51-4FE0-8258-3C724DD4904B}|MauiApp1.csproj|c:\\users\\joar.jonuzi\\desktop\\campominato\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9028800-1B51-4FE0-8258-3C724DD4904B}|MauiApp1.csproj|solutionrelative:mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9028800-1B51-4FE0-8258-3C724DD4904B}|MauiApp1.csproj|c:\\users\\joar.jonuzi\\desktop\\campominato\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9028800-1B51-4FE0-8258-3C724DD4904B}|MauiApp1.csproj|solutionrelative:mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9028800-1B51-4FE0-8258-3C724DD4904B}|MauiApp1.csproj|c:\\users\\joar.jonuzi\\desktop\\campominato\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{E9028800-1B51-4FE0-8258-3C724DD4904B}|MauiApp1.csproj|c:\\users\\christian pio.russo\\desktop\\campominato\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{E9028800-1B51-4FE0-8258-3C724DD4904B}|MauiApp1.csproj|solutionrelative:mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E9028800-1B51-4FE0-8258-3C724DD4904B}|MauiApp1.csproj|c:\\users\\joar.jonuzi\\desktop\\campominato\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{E9028800-1B51-4FE0-8258-3C724DD4904B}|MauiApp1.csproj|c:\\users\\christian pio.russo\\desktop\\campominato\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9028800-1B51-4FE0-8258-3C724DD4904B}|MauiApp1.csproj|solutionrelative:mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9028800-1B51-4FE0-8258-3C724DD4904B}|MauiApp1.csproj|c:\\users\\christian pio.russo\\desktop\\campominato\\viewmodels\\campodigiocoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9028800-1B51-4FE0-8258-3C724DD4904B}|MauiApp1.csproj|solutionrelative:viewmodels\\campodigiocoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9028800-1B51-4FE0-8258-3C724DD4904B}|MauiApp1.csproj|c:\\users\\christian pio.russo\\desktop\\campominato\\giocomedioxaml.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E9028800-1B51-4FE0-8258-3C724DD4904B}|MauiApp1.csproj|solutionrelative:giocomedioxaml.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9028800-1B51-4FE0-8258-3C724DD4904B}|MauiApp1.csproj|c:\\users\\christian pio.russo\\desktop\\campominato\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9028800-1B51-4FE0-8258-3C724DD4904B}|MauiApp1.csproj|solutionrelative:mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9028800-1B51-4FE0-8258-3C724DD4904B}|MauiApp1.csproj|c:\\users\\christian pio.russo\\desktop\\campominato\\giocofacile.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E9028800-1B51-4FE0-8258-3C724DD4904B}|MauiApp1.csproj|solutionrelative:giocofacile.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\christian pio.russo\\.nuget\\packages\\microsoft.maui.resizetizer\\8.0.100\\buildTransitive\\Microsoft.Maui.Resizetizer.After.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9028800-1B51-4FE0-8258-3C724DD4904B}|MauiApp1.csproj|c:\\users\\christian pio.russo\\desktop\\campominato\\models\\campodigioco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9028800-1B51-4FE0-8258-3C724DD4904B}|MauiApp1.csproj|solutionrelative:models\\campodigioco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9028800-1B51-4FE0-8258-3C724DD4904B}|MauiApp1.csproj|c:\\users\\christian pio.russo\\desktop\\campominato\\models\\cella.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9028800-1B51-4FE0-8258-3C724DD4904B}|MauiApp1.csproj|solutionrelative:models\\cella.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9028800-1B51-4FE0-8258-3C724DD4904B}|MauiApp1.csproj|c:\\users\\christian pio.russo\\desktop\\campominato\\viewmodels\\cellaviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9028800-1B51-4FE0-8258-3C724DD4904B}|MauiApp1.csproj|solutionrelative:viewmodels\\cellaviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9028800-1B51-4FE0-8258-3C724DD4904B}|MauiApp1.csproj|c:\\users\\christian pio.russo\\desktop\\campominato\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{E9028800-1B51-4FE0-8258-3C724DD4904B}|MauiApp1.csproj|solutionrelative:appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E9028800-1B51-4FE0-8258-3C724DD4904B}|MauiApp1.csproj|c:\\users\\joar.jonuzi\\desktop\\campominato\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E9028800-1B51-4FE0-8258-3C724DD4904B}|MauiApp1.csproj|c:\\users\\christian pio.russo\\desktop\\campominato\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E9028800-1B51-4FE0-8258-3C724DD4904B}|MauiApp1.csproj|solutionrelative:appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E9028800-1B51-4FE0-8258-3C724DD4904B}|MauiApp1.csproj|c:\\users\\joar.jonuzi\\desktop\\campominato\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{E9028800-1B51-4FE0-8258-3C724DD4904B}|MauiApp1.csproj|c:\\users\\christian pio.russo\\desktop\\campominato\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{E9028800-1B51-4FE0-8258-3C724DD4904B}|MauiApp1.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E9028800-1B51-4FE0-8258-3C724DD4904B}|MauiApp1.csproj|c:\\users\\joar.jonuzi\\desktop\\campominato\\difficolt\u00E0gioco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E9028800-1B51-4FE0-8258-3C724DD4904B}|MauiApp1.csproj|c:\\users\\christian pio.russo\\desktop\\campominato\\difficolt\u00E0gioco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E9028800-1B51-4FE0-8258-3C724DD4904B}|MauiApp1.csproj|solutionrelative:difficolt\u00E0gioco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -54,57 +69,85 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CampoDiGiocoViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\joar.jonuzi\\Desktop\\CampoMinato\\ViewModels\\CampoDiGiocoViewModel.cs",
-              "RelativeDocumentMoniker": "ViewModels\\CampoDiGiocoViewModel.cs",
-              "ToolTip": "C:\\Users\\joar.jonuzi\\Desktop\\CampoMinato\\ViewModels\\CampoDiGiocoViewModel.cs",
-              "RelativeToolTip": "ViewModels\\CampoDiGiocoViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADQAAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T06:09:21.419Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "AppShell.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\joar.jonuzi\\Desktop\\CampoMinato\\AppShell.xaml.cs",
-              "RelativeDocumentMoniker": "AppShell.xaml.cs",
-              "ToolTip": "C:\\Users\\joar.jonuzi\\Desktop\\CampoMinato\\AppShell.xaml.cs",
-              "RelativeToolTip": "AppShell.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-08T08:19:03.13Z",
+              "DocumentIndex": 0,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Users\\christian pio.russo\\Desktop\\CampoMinato\\.gitignore",
+              "RelativeDocumentMoniker": ".gitignore",
+              "ToolTip": "C:\\Users\\christian pio.russo\\Desktop\\CampoMinato\\.gitignore",
+              "RelativeToolTip": ".gitignore",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-05-14T10:55:38.067Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "MainPage.xaml",
-              "DocumentMoniker": "C:\\Users\\joar.jonuzi\\Desktop\\CampoMinato\\MainPage.xaml",
-              "RelativeDocumentMoniker": "MainPage.xaml",
-              "ToolTip": "C:\\Users\\joar.jonuzi\\Desktop\\CampoMinato\\MainPage.xaml",
-              "RelativeToolTip": "MainPage.xaml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAAAAAAA",
+              "Title": "Giocofacile.xaml",
+              "DocumentMoniker": "C:\\Users\\christian pio.russo\\Desktop\\CampoMinato\\Giocofacile.xaml",
+              "RelativeDocumentMoniker": "Giocofacile.xaml",
+              "ToolTip": "C:\\Users\\christian pio.russo\\Desktop\\CampoMinato\\Giocofacile.xaml",
+              "RelativeToolTip": "Giocofacile.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-08T08:18:04.039Z"
+              "WhenOpened": "2025-05-14T10:27:37.121Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 3,
+              "Title": "CampoDiGiocoViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\christian pio.russo\\Desktop\\CampoMinato\\ViewModels\\CampoDiGiocoViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\CampoDiGiocoViewModel.cs",
+              "ToolTip": "C:\\Users\\christian pio.russo\\Desktop\\CampoMinato\\ViewModels\\CampoDiGiocoViewModel.cs",
+              "RelativeToolTip": "ViewModels\\CampoDiGiocoViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADQAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T06:09:21.419Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AppShell.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\christian pio.russo\\Desktop\\CampoMinato\\AppShell.xaml.cs",
+              "RelativeDocumentMoniker": "AppShell.xaml.cs",
+              "ToolTip": "C:\\Users\\christian pio.russo\\Desktop\\CampoMinato\\AppShell.xaml.cs",
+              "RelativeToolTip": "AppShell.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T08:19:03.13Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\christian pio.russo\\Desktop\\CampoMinato\\MainPage.xaml",
+              "RelativeDocumentMoniker": "MainPage.xaml",
+              "ToolTip": "C:\\Users\\christian pio.russo\\Desktop\\CampoMinato\\MainPage.xaml",
+              "RelativeToolTip": "MainPage.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-08T08:18:04.039Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "AppShell.xaml",
-              "DocumentMoniker": "C:\\Users\\joar.jonuzi\\Desktop\\CampoMinato\\AppShell.xaml",
+              "DocumentMoniker": "C:\\Users\\christian pio.russo\\Desktop\\CampoMinato\\AppShell.xaml",
               "RelativeDocumentMoniker": "AppShell.xaml",
-              "ToolTip": "C:\\Users\\joar.jonuzi\\Desktop\\CampoMinato\\AppShell.xaml",
+              "ToolTip": "C:\\Users\\christian pio.russo\\Desktop\\CampoMinato\\AppShell.xaml",
               "RelativeToolTip": "AppShell.xaml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
@@ -112,11 +155,35 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 5,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "C:\\Users\\christian pio.russo\\Desktop\\CampoMinato\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "MauiProgram.cs",
+              "ToolTip": "C:\\Users\\christian pio.russo\\Desktop\\CampoMinato\\MauiProgram.cs",
+              "RelativeToolTip": "MauiProgram.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T06:59:23.107Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Microsoft.Maui.Resizetizer.After.targets",
+              "DocumentMoniker": "C:\\Users\\christian pio.russo\\.nuget\\packages\\microsoft.maui.resizetizer\\8.0.100\\buildTransitive\\Microsoft.Maui.Resizetizer.After.targets",
+              "RelativeDocumentMoniker": "..\\..\\.nuget\\packages\\microsoft.maui.resizetizer\\8.0.100\\buildTransitive\\Microsoft.Maui.Resizetizer.After.targets",
+              "ToolTip": "C:\\Users\\christian pio.russo\\.nuget\\packages\\microsoft.maui.resizetizer\\8.0.100\\buildTransitive\\Microsoft.Maui.Resizetizer.After.targets",
+              "RelativeToolTip": "..\\..\\.nuget\\packages\\microsoft.maui.resizetizer\\8.0.100\\buildTransitive\\Microsoft.Maui.Resizetizer.After.targets",
+              "ViewState": "AQIAALwCAAAAAAAAAADgv2cCAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-05-14T10:21:39.6Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "App.xaml",
-              "DocumentMoniker": "C:\\Users\\joar.jonuzi\\Desktop\\CampoMinato\\App.xaml",
+              "DocumentMoniker": "C:\\Users\\christian pio.russo\\Desktop\\CampoMinato\\App.xaml",
               "RelativeDocumentMoniker": "App.xaml",
-              "ToolTip": "C:\\Users\\joar.jonuzi\\Desktop\\CampoMinato\\App.xaml",
+              "ToolTip": "C:\\Users\\christian pio.russo\\Desktop\\CampoMinato\\App.xaml",
               "RelativeToolTip": "App.xaml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
@@ -124,81 +191,75 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 14,
               "Title": "Difficolt\u00E0Gioco.cs",
-              "DocumentMoniker": "C:\\Users\\joar.jonuzi\\Desktop\\CampoMinato\\Difficolt\u00E0Gioco.cs",
+              "DocumentMoniker": "C:\\Users\\christian pio.russo\\Desktop\\CampoMinato\\Difficolt\u00E0Gioco.cs",
               "RelativeDocumentMoniker": "Difficolt\u00E0Gioco.cs",
-              "ToolTip": "C:\\Users\\joar.jonuzi\\Desktop\\CampoMinato\\Difficolt\u00E0Gioco.cs",
+              "ToolTip": "C:\\Users\\christian pio.russo\\Desktop\\CampoMinato\\Difficolt\u00E0Gioco.cs",
               "RelativeToolTip": "Difficolt\u00E0Gioco.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-08T08:12:40.891Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-08T08:12:40.891Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Cella.cs",
-              "DocumentMoniker": "C:\\Users\\joar.jonuzi\\Desktop\\CampoMinato\\Models\\Cella.cs",
-              "RelativeDocumentMoniker": "Models\\Cella.cs",
-              "ToolTip": "C:\\Users\\joar.jonuzi\\Desktop\\CampoMinato\\Models\\Cella.cs",
-              "RelativeToolTip": "Models\\Cella.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAWAAAA",
+              "DocumentIndex": 2,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\christian pio.russo\\Desktop\\CampoMinato\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\christian pio.russo\\Desktop\\CampoMinato\\MainPage.xaml.cs",
+              "RelativeToolTip": "MainPage.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-07T10:09:13.395Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CampoDiGioco.cs",
-              "DocumentMoniker": "C:\\Users\\joar.jonuzi\\Desktop\\CampoMinato\\Models\\CampoDiGioco.cs",
-              "RelativeDocumentMoniker": "Models\\CampoDiGioco.cs",
-              "ToolTip": "C:\\Users\\joar.jonuzi\\Desktop\\CampoMinato\\Models\\CampoDiGioco.cs",
-              "RelativeToolTip": "Models\\CampoDiGioco.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAeAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T09:25:14.354Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CellaViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\joar.jonuzi\\Desktop\\CampoMinato\\ViewModels\\CellaViewModel.cs",
-              "RelativeDocumentMoniker": "ViewModels\\CellaViewModel.cs",
-              "ToolTip": "C:\\Users\\joar.jonuzi\\Desktop\\CampoMinato\\ViewModels\\CellaViewModel.cs",
-              "RelativeToolTip": "ViewModels\\CellaViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAzAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T10:03:36.373Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-08T08:19:36.158Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "MainPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\joar.jonuzi\\Desktop\\CampoMinato\\MainPage.xaml.cs",
-              "RelativeDocumentMoniker": "MainPage.xaml.cs",
-              "ToolTip": "C:\\Users\\joar.jonuzi\\Desktop\\CampoMinato\\MainPage.xaml.cs",
-              "RelativeToolTip": "MainPage.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAvAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-08T08:19:36.158Z",
-              "EditorCaption": ""
+              "Title": "GiocoMedioxaml.xaml",
+              "DocumentMoniker": "C:\\Users\\christian pio.russo\\Desktop\\CampoMinato\\GiocoMedioxaml.xaml",
+              "RelativeDocumentMoniker": "GiocoMedioxaml.xaml",
+              "ToolTip": "C:\\Users\\christian pio.russo\\Desktop\\CampoMinato\\GiocoMedioxaml.xaml",
+              "RelativeToolTip": "GiocoMedioxaml.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-14T10:28:01.025Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MauiProgram.cs",
-              "DocumentMoniker": "C:\\Users\\joar.jonuzi\\Desktop\\CampoMinato\\MauiProgram.cs",
-              "RelativeDocumentMoniker": "MauiProgram.cs",
-              "ToolTip": "C:\\Users\\joar.jonuzi\\Desktop\\CampoMinato\\MauiProgram.cs",
-              "RelativeToolTip": "MauiProgram.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAdAAAA",
+              "DocumentIndex": 9,
+              "Title": "Cella.cs",
+              "DocumentMoniker": "C:\\Users\\christian pio.russo\\Desktop\\CampoMinato\\Models\\Cella.cs",
+              "RelativeDocumentMoniker": "Models\\Cella.cs",
+              "ToolTip": "C:\\Users\\christian pio.russo\\Desktop\\CampoMinato\\Models\\Cella.cs",
+              "RelativeToolTip": "Models\\Cella.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T06:59:23.107Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-07T10:09:13.395Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CampoDiGioco.cs",
+              "DocumentMoniker": "C:\\Users\\christian pio.russo\\Desktop\\CampoMinato\\Models\\CampoDiGioco.cs",
+              "RelativeDocumentMoniker": "Models\\CampoDiGioco.cs",
+              "ToolTip": "C:\\Users\\christian pio.russo\\Desktop\\CampoMinato\\Models\\CampoDiGioco.cs",
+              "RelativeToolTip": "Models\\CampoDiGioco.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAABBwAcAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T09:25:14.354Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CellaViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\christian pio.russo\\Desktop\\CampoMinato\\ViewModels\\CellaViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\CellaViewModel.cs",
+              "ToolTip": "C:\\Users\\christian pio.russo\\Desktop\\CampoMinato\\ViewModels\\CellaViewModel.cs",
+              "RelativeToolTip": "ViewModels\\CellaViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T10:03:36.373Z"
             }
           ]
         }
