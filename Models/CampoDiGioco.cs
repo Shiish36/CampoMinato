@@ -5,7 +5,7 @@ using System.Text;
 
 namespace MauiApp1.Models
 {
-    public class CampoDiGioco : Cella
+    public class CampoDiGioco
     {
         private int _lunghezzaCampo;
         public int LunghezzaCampo
@@ -64,14 +64,18 @@ namespace MauiApp1.Models
                     Campo[i, j] = new Cella();
                 }
             }
-            GeneraMineCasuali();
+            GeneraMineCasuali(QuantitàMine);
         }
-        private void GeneraMineCasuali()
+
+        /// <summary>
+        /// Imposta il valore di Cella, ContieneMina a true, ad un x numero di mine
+        /// </summary>
+        private void GeneraMineCasuali(int quantitàMine)
         {
             Random rand = new Random();
             int mineGenerate = 0;
 
-            while (mineGenerate < QuantitàMine)
+            while (mineGenerate < quantitàMine)
             {
                 int x = rand.Next(0, LunghezzaCampo);
                 int y = rand.Next(0, LarghezzaCampo);
@@ -84,6 +88,13 @@ namespace MauiApp1.Models
                 }
             }
         }
+
+
+        /// <summary>
+        /// Aggiorna le mine adiacenti a tutte le caselle che non sono mine, in quanto vengono inizializzate prima della generazione delle mine.
+        /// </summary>
+        /// <param name="x">Numero colonna della grid</param>
+        /// <param name="y">Numero riga della grid</param>
         private void AggiornaMineAdiacenti(int x, int y)
         {
             for (int i = x - 1; i <= x + 1; i++)

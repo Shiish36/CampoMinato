@@ -45,6 +45,13 @@ namespace MauiApp1.ViewModels
             }
         }
 
+        /// <summary>
+        /// Attiva automaticamente tutte le Celle adiacenti alla Cella nella poizione x,y. 
+        /// La funzione si richiama automaticamente se una casella adiacente non ha mine affianco.
+        /// </summary>
+        /// /// <param name="x">Numero colonna della grid</param>
+        /// <param name="y">Numero riga della grid</param>
+
         private void ScopriAdiacenti(int x, int y)
         {
             for (int dx = -1; dx <= 1; dx++)
