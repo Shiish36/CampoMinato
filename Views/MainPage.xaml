@@ -17,10 +17,23 @@
                HorizontalOptions="Center"/>
 
         <HorizontalStackLayout Spacing="10"  HorizontalOptions="Center" VerticalOptions="End">
-            <Button Text="Facile" BackgroundColor="RosyBrown" />
-            <Button Text="Medio" BackgroundColor="RosyBrown" />
-            <Button Text="Difficile"  BackgroundColor="RosyBrown" />
-            <Button Text="Personalizzato" BackgroundColor="RosyBrown" />
+            <Grid>
+                <Button Text="Facile" BackgroundColor="RosyBrown" TextColor="beige" CornerRadius="12" />
+
+                <Button IsEnabled="false" Margin="0,6,0,0" BackgroundColor="beige" CornerRadius="12"/>
+            </Grid>
+            <Grid>
+                <Button Text="Medio" BackgroundColor="RosyBrown" TextColor="beige" CornerRadius="12"/>
+            <Button IsEnabled="false" Margin="0,6,0,0" BackgroundColor="beige" CornerRadius="12"/>
+            </Grid>
+            <Grid>
+                <Button Text="Difficile"  BackgroundColor="RosyBrown" TextColor="beige" CornerRadius="12"/>
+            <Button IsEnabled="false" Margin="0,6,0,0" BackgroundColor="beige"/>
+            </Grid>
+            <Grid>
+            <Button Text="Personalizzato" BackgroundColor="RosyBrown" TextColor="beige" CornerRadius="12"/>
+            <Button IsEnabled="false" Margin="0,6,0,0" BackgroundColor="beige" CornerRadius="12"/>
+            </Grid>
         </HorizontalStackLayout>
 
 
