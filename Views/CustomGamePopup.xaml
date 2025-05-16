@@ -1,0 +1,20 @@
+﻿<toolkit:Popup
+    x:Class="MauiApp1.Views.CustomGamePopup"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+    Size="300,400"
+    >
+    <VerticalStackLayout Padding="20" Spacing="15">
+        <Label Text="Righe"/>
+        <Entry x:Name="RowsEntry" Keyboard="Numeric"/>
+
+        <Label Text="Colonne"/>
+        <Entry x:Name="ColumnsEntry" Keyboard="Numeric"/>
+
+        <Label Text="Mine"/>
+        <Entry x:Name="MinesEntry" Keyboard="Numeric"/>
+
+        <Button Text="Avvia Gioco" Clicked="OnConfirmClicked"/>
+    </VerticalStackLayout>
+</toolkit:Popup>
