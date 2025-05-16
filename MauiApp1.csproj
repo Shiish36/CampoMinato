@@ -37,10 +37,6 @@
 		<TargetPlatformMinVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'windows'">10.0.17763.0</TargetPlatformMinVersion>
 		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'tizen'">6.5</SupportedOSPlatformVersion>
 		<WindowsSdkPackageVersion>10.0.19041.53</WindowsSdkPackageVersion>
-<<<<<<< HEAD
-		
-=======
->>>>>>> 4ac26fd5baa51d486815ee5a51121f7bd48ca9f1
 	</PropertyGroup>
 
 	<ItemGroup>
@@ -75,11 +71,7 @@
 	  <MauiXaml Update="Giocofacile.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="GiocoMedioxaml.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
 	</ItemGroup>
-
 	<ItemGroup>
 	  <None Update="Home.xaml">
 	    <Generator>MSBuild:Compile</Generator>
