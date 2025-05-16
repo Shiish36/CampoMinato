@@ -66,4 +66,22 @@
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="8.0.0" />
 	</ItemGroup>
 
+	<ItemGroup>
+	  <Compile Update="Views\CustomGamePopup.xaml.cs">
+	    <DependentUpon>CustomGamePopup.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Views\CampoDiGiocoView.xaml.cs">
+	    <DependentUpon>CampoDiGiocoView.xaml</DependentUpon>
+	  </Compile>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <MauiXaml Update="Views\CustomGamePopup.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\CampoDiGiocoView.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	</ItemGroup>
+
 </Project>

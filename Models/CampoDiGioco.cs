@@ -84,6 +84,13 @@ namespace MauiApp1.Models
                 }
             }
         }
+
+
+        /// <summary>
+        /// Aggiorna le mine adiacenti a tutte le caselle che non sono mine, in quanto vengono inizializzate prima della generazione delle mine.
+        /// </summary>
+        /// <param name="x">Numero colonna della grid</param>
+        /// <param name="y">Numero riga della grid</param>
         private void AggiornaMineAdiacenti(int x, int y)
         {
             for (int i = x - 1; i <= x + 1; i++)

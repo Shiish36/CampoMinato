@@ -3,11 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using CommunityToolkit.Mvvm.ComponentModel;
 using MauiApp1.Models;
 
 namespace MauiApp1.ViewModels
 {
-    public class CampoDiGiocoViewModel
+    public partial class CampoDiGiocoViewModel : ObservableObject
     {
         public CampoDiGioco Campo { get; private set; }
         public bool GiocoTerminato { get; private set; }
