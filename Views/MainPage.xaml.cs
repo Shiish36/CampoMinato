@@ -1,4 +1,7 @@
-﻿using CommunityToolkit.Mvvm.Input;
+﻿using Android.Widget;
+using CommunityToolkit.Maui.Views;
+using CommunityToolkit.Mvvm.Input;
+using static Android.InputMethodServices.Keyboard;
 
 namespace MauiApp1.Views
 {
@@ -10,23 +13,38 @@ namespace MauiApp1.Views
         }
 
         [RelayCommand]
-        public async Task BtnFacileClick() 
+        public async Task BtnFacileClick()
         {
             await Navigation.PushAsync(new Views.CampoDiGiocoView(new Models.CampoDiGioco(8, 8, 10)));
         }
 
+        [RelayCommand]
+        public async Task BtnMedioClickCommand()
+        {
+            await Navigation.PushAsync(new Views.CampoDiGiocoView(new Models.CampoDiGioco(16, 16, 40)));
+        }
 
-        Models.CampoDiGioco CampoDiGioco;
-        private void BtnDifficileClick(object sender, EventArgs e)
+        [RelayCommand]
+        public async Task BtnDifficileClickCommand()
         {
-            CampoDiGioco = new Models.CampoDiGioco(16, 30, 99);
+            await Navigation.PushAsync(new Views.CampoDiGiocoView(new Models.CampoDiGioco(16, 30, 99)));
         }
-        private void BtnNormaleClick(object sender, EventArgs e)
+
+        [RelayCommand]
+        public async Task BtnCustomClickCommand()
         {
-            CampoDiGioco = new Models.CampoDiGioco(16, 16, 40);
-        }
-        public void BtnCustomClick(object sender, EventArgs e)
-        {
+            var result = await Shell.Current.ShowPopupAsync(new CustomGamePopup());
+
+            if (result is ValueTuple<int, int, int> size) 
+            {
+                var (rows, columns, mines) = size;
+                if (mines >= rows * columns)
+                {
+                    // Mostra errore
+                    return;
+                }
+                await Navigation.PushAsync(new Views.CampoDiGiocoView(new Models.CampoDiGioco(rows, columns, mines)));
+            }
 
         }
     }

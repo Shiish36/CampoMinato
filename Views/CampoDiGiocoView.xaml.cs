@@ -1,4 +1,4 @@
-﻿using CommunityToolkit.Maui.Behaviors;
+﻿using MauiApp1.ViewModels;
 namespace MauiApp1.Views
 {
     public partial class CampoDiGiocoView : ContentPage
@@ -19,7 +19,7 @@ namespace MauiApp1.Views
             GameGrid.ColumnDefinitions.Clear();
             GameGrid.Children.Clear();
 
-            for (int r = 0; r < campoViewModel.Campo.; r++)
+            for (int r = 0; r < campoViewModel.Campo.LunghezzaCampo; r++)
                 GameGrid.RowDefinitions.Add(new RowDefinition { Height = GridLength.Auto });
 
             for (int c = 0; c < campoViewModel.Campo.LarghezzaCampo; c++)
@@ -35,24 +35,19 @@ namespace MauiApp1.Views
                     {
                         Text = " ", // puoi cambiarlo in base a stato
                         BackgroundColor = Colors.Gray,
-                        WidthRequest = 40,
-                        HeightRequest = 40
+                        WidthRequest = GameGrid.Width / GameGrid.ColumnDefinitions.Count,
+                        HeightRequest = GameGrid.Height / GameGrid.RowDefinitions.Count,
+                        Command = ((CampoDiGiocoViewModel)BindingContext).ScopriCella(), // neanche questo va per qualche arcano motivo
+                        CommandParameter = new Tuple<int, int>(r, c),
                     };
 
-                    var rCopy = r;
-                    var cCopy = c;
-
-                    var tapGesture = new TapGestureRecognizer
+                    var LongPress = new LongPressRecognizer // non va per qualche motivo arcano
                     {
-                        NumberOfTapsRequired = 1
+                        Command = ((CellaViewModel)BindingContext).ToggleBandierina(),
+                        MinimumPressDuration = 700 //in millisecondi
                     };
-                    tapGesture.Tapped += (s, e) => OnTap(rCopy, cCopy);
 
-                    var longPress = new Microsoft.Maui.Controls.GestureRecognizers.LongPressGestureRecognizer();
-                    longPress.LongPressed += (s, e) => OnLongPress(rCopy, cCopy);
-
-                    btn.GestureRecognizers.Add(tapGesture);
-                    btn.GestureRecognizers.Add(longPress);
+         
 
                     GameGrid.Add(btn, c, r);
                 }

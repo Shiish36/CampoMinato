@@ -10,6 +10,7 @@ namespace MauiApp1.Models
         public bool ContieneMina { get; internal set; }
         public int MineAdiacenti { get; internal set; }
         public bool Scoperta { get; set; }
+        public bool ScopertaAutomaticamente { get; set; }
         public bool HaBandierina { get; set; }
         public Cella()
         {

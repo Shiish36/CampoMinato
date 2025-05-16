@@ -17,8 +17,7 @@ namespace MauiApp1.Views
 
             if (mines >= rows * cols)
             {
-                Close(null); // Oppure mostra errore
-                return;
+                mines = rows * cols - 1; //imposto un valore massimo di mine se le mine superano il numero di celle
             }
 
             // Restituisco i valori come tupla

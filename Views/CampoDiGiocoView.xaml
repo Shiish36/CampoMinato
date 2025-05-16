@@ -6,6 +6,8 @@
     <ScrollView>
         <Grid x:Name="GameGrid"
                   Padding="10"
+                  WidthRequest="400"
+                  HeightRequest="400"
                   HorizontalOptions="Center"
                   VerticalOptions="Center" />
     </ScrollView>

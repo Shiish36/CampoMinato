@@ -19,9 +19,9 @@
 
         <HorizontalStackLayout Spacing="10"  HorizontalOptions="Center" VerticalOptions="End">
             <Button Text="Facile" BackgroundColor="RosyBrown" Command="{Binding Source={RelativeSource AncestorType={x:Type Views:MainPage}}, Path=BtnFacileClickCommand}"/>
-            <Button Text="Medio" BackgroundColor="RosyBrown" Command="{Binding Source={RelativeSource AncestorType={x:Type Views:MainPage}}, Path=BtnFacileClickCommand}"/>
-            <Button Text="Difficile"  BackgroundColor="RosyBrown" Command="{Binding Source={RelativeSource AncestorType={x:Type Views:MainPage}}, Path=BtnFacileClickCommand}"/>
-            <Button Text="Personalizzato" BackgroundColor="RosyBrown" Command="{Binding Source={RelativeSource AncestorType={x:Type Views:MainPage}}, Path=BtnFacileClickCommand}"/>
+            <Button Text="Medio" BackgroundColor="RosyBrown" Command="{Binding Source={RelativeSource AncestorType={x:Type Views:MainPage}}, Path=BtnMedioClickCommand}"/>
+            <Button Text="Difficile"  BackgroundColor="RosyBrown" Command="{Binding Source={RelativeSource AncestorType={x:Type Views:MainPage}}, Path=BtnDifficileClickCommand}"/>
+            <Button Text="Personalizzato" BackgroundColor="RosyBrown" Command="{Binding Source={RelativeSource AncestorType={x:Type Views:MainPage}}, Path=BtnCustomClickCommand}"/>
         </HorizontalStackLayout>
     </AbsoluteLayout>
 </ContentPage>
