@@ -1,4 +1,5 @@
 ﻿using CommunityToolkit.Mvvm.ComponentModel;
+using CommunityToolkit.Mvvm.Input;
 using MauiApp1.Models;
 using System;
 using System.Collections.Generic;
@@ -40,7 +41,8 @@ namespace MauiApp1.ViewModels
 
         public Color BackgroundColor => !_cella.Scoperta ? Colors.Gray : Colors.LightGray;
 
-        public void ToggleBandierina()
+        [RelayCommand]
+        public async void ToggleBandierina()
         {
             _cella.HaBandierina = !_cella.HaBandierina;
             OnPropertyChanged(nameof(DisplayText));

@@ -1,4 +1,5 @@
-﻿using MauiApp1.ViewModels;
+﻿using CommunityToolkit.Maui.Behaviors;
+using MauiApp1.ViewModels;
 namespace MauiApp1.Views
 {
     public partial class CampoDiGiocoView : ContentPage
@@ -37,17 +38,18 @@ namespace MauiApp1.Views
                         BackgroundColor = Colors.Gray,
                         WidthRequest = GameGrid.Width / GameGrid.ColumnDefinitions.Count,
                         HeightRequest = GameGrid.Height / GameGrid.RowDefinitions.Count,
-                        Command = ((CampoDiGiocoViewModel)BindingContext).ScopriCella(), // neanche questo va per qualche arcano motivo
-                        CommandParameter = new Tuple<int, int>(r, c),
+                        Command = ((CampoDiGiocoViewModel)BindingContext).ScopriCella(r,c), // da trasformare in command
+                        CommandParameter = new Tuple<int, int>(r, c)
                     };
 
-                    var LongPress = new LongPressRecognizer // non va per qualche motivo arcano
+                    
+
+                    var LongPress = new TouchBehavior // da trasformare in command
                     {
-                        Command = ((CellaViewModel)BindingContext).ToggleBandierina(),
-                        MinimumPressDuration = 700 //in millisecondi
-                    };
+                        LongPressCommand = ((CellaViewModel)BindingContext).ToggleBandierina(),
+                        LongPressDuration = 700 //in millisecondi
 
-         
+                    };
 
                     GameGrid.Add(btn, c, r);
                 }
