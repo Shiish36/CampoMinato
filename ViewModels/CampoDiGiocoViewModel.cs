@@ -3,11 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using CommunityToolkit.Mvvm.ComponentModel;
+using CommunityToolkit.Mvvm.Input;
 using MauiApp1.Models;
 
 namespace MauiApp1.ViewModels
 {
-    public class CampoDiGiocoViewModel
+    public partial class CampoDiGiocoViewModel : ObservableObject
     {
         public CampoDiGioco Campo { get; private set; }
         public bool GiocoTerminato { get; private set; }
@@ -18,30 +20,31 @@ namespace MauiApp1.ViewModels
             GiocoTerminato = false;
         }
 
-        public int ScopriCella(int x, int y)
+        [RelayCommand]
+        public void ScopriCella(int x, int y)
         {
-            if (GiocoTerminato) return -1;
+            if (GiocoTerminato) return;
 
             var cella = Campo.Campo[x, y];
 
             if (cella.Scoperta || cella.HaBandierina)
-                return 0;
+                return;
 
             if (cella.ContieneMina)
             {
                 GiocoTerminato = true;
-                return -1;
+                return;
             }
             
             if (cella.MineAdiacenti == 0)
             {
                 ScopriAdiacenti(x, y);
-                return 1;
+                return;
             }
             else
             {
                 cella.Scoperta = true;
-                return 1;
+                return;
             }
         }
 
@@ -67,13 +70,13 @@ namespace MauiApp1.ViewModels
                         var vicina = Campo.Campo[nx, ny];
                         if (!vicina.Scoperta && !vicina.ContieneMina)
                         {
-                            vicina.Scoperta = true;
-
                             if (vicina.MineAdiacenti == 0)
                             {
+                                vicina.ScopertaAutomaticamente = true;
                                 // ricorsione
                                 ScopriAdiacenti(nx, ny);
                             }
+                            vicina.Scoperta = true;
                         }
                     }
                 }

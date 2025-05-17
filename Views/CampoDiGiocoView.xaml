@@ -1,0 +1,14 @@
+﻿<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp1.Views.CampoDiGiocoView"
+             BackgroundColor="Beige">
+
+    <ScrollView>
+        <Grid x:Name="GameGrid"
+                  Padding="10"
+                  WidthRequest="400"
+                  HeightRequest="400"
+                  HorizontalOptions="Center"
+                  VerticalOptions="Center" />
+    </ScrollView>
+</ContentPage>
