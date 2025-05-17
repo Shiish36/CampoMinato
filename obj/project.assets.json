@@ -35975,7 +35975,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\w10\\.nuget\\packages\\": {},
+    "C:\\Users\\christian pio.russo\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
@@ -35984,7 +35984,7 @@
       "projectUniqueName": "C:\\Users\\christian pio.russo\\Desktop\\CampoMinato\\MauiApp1.csproj",
       "projectName": "MauiApp1",
       "projectPath": "C:\\Users\\christian pio.russo\\Desktop\\CampoMinato\\MauiApp1.csproj",
-      "packagesPath": "C:\\Users\\w10\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\christian pio.russo\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\christian pio.russo\\Desktop\\CampoMinato\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
@@ -35992,7 +35992,7 @@
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\w10\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\christian pio.russo\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

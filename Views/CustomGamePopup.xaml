@@ -4,17 +4,20 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
     Size="300,400"
+    Color="Beige"
+   
     >
     <VerticalStackLayout Padding="20" Spacing="15">
-        <Label Text="Righe"/>
+     
+        <Label Text="Righe" TextColor="SaddleBrown"/>
         <Entry x:Name="RowsEntry" Keyboard="Numeric"/>
 
-        <Label Text="Colonne"/>
+        <Label Text="Colonne" TextColor="SaddleBrown"/>
         <Entry x:Name="ColumnsEntry" Keyboard="Numeric"/>
 
-        <Label Text="Mine"/>
+        <Label Text="Mine" TextColor="SaddleBrown"/>
         <Entry x:Name="MinesEntry" Keyboard="Numeric"/>
 
-        <Button Text="Avvia Gioco" Clicked="OnConfirmClicked"/>
+        <Button Text="Avvia Gioco" Clicked="OnConfirmClicked" TextColor="SaddleBrown"/>
     </VerticalStackLayout>
 </toolkit:Popup>
