@@ -42,7 +42,7 @@ namespace MauiApp1.ViewModels
         public Color BackgroundColor => !_cella.Scoperta ? Colors.Gray : Colors.LightGray;
 
         [RelayCommand]
-        public async void ToggleBandierina()
+        public async Task ToggleBandierina()
         {
             _cella.HaBandierina = !_cella.HaBandierina;
             OnPropertyChanged(nameof(DisplayText));

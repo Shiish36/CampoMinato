@@ -1,10 +1,5 @@
-<<<<<<< HEAD
 ﻿using Microsoft.Extensions.Logging;
 using CommunityToolkit.Maui;
-=======
-﻿using CommunityToolkit.Maui;
->>>>>>> BranchRusso
-
 namespace MauiApp1
 {
     public static class MauiProgram

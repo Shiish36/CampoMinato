@@ -68,9 +68,8 @@
 	</ItemGroup>
 
 	<ItemGroup>
-<<<<<<< HEAD
 	  <Compile Update="Views\CustomGamePopup.xaml.cs">
-	    <DependentUpon>CustomGamePopup.xaml</DependentUpon>
+	   <DependentUpon>CustomGamePopup.xaml</DependentUpon>
 	  </Compile>
 	  <Compile Update="Views\CampoDiGiocoView.xaml.cs">
 	    <DependentUpon>CampoDiGiocoView.xaml</DependentUpon>
@@ -84,16 +83,6 @@
 	  <MauiXaml Update="Views\CampoDiGiocoView.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-=======
-	  <MauiXaml Update="Giocofacile.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
-	</ItemGroup>
-	<ItemGroup>
-	  <None Update="Home.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </None>
->>>>>>> BranchRusso
 	</ItemGroup>
 
 </Project>
