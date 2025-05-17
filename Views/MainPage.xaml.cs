@@ -1,13 +1,8 @@
-<<<<<<< HEAD
-﻿using Android.Widget;
+
 using CommunityToolkit.Maui.Views;
 using CommunityToolkit.Mvvm.Input;
-using static Android.InputMethodServices.Keyboard;
 
 namespace MauiApp1.Views
-=======
-﻿namespace MauiApp1
->>>>>>> BranchRusso
 {
     public partial class MainPage : ContentPage
     {
@@ -15,7 +10,6 @@ namespace MauiApp1.Views
         {
             InitializeComponent();
         }
-<<<<<<< HEAD
 
         [RelayCommand]
         public async Task BtnFacileClick()
@@ -54,8 +48,3 @@ namespace MauiApp1.Views
         }
     }
 }
-=======
-    }
-
-}
->>>>>>> BranchRusso

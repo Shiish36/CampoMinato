@@ -38,19 +38,18 @@ namespace MauiApp1.Views
                         BackgroundColor = Colors.Gray,
                         WidthRequest = GameGrid.Width / GameGrid.ColumnDefinitions.Count,
                         HeightRequest = GameGrid.Height / GameGrid.RowDefinitions.Count,
-                        Command = ((CampoDiGiocoViewModel)BindingContext).ScopriCella(r,c), // da trasformare in command
-                        CommandParameter = new Tuple<int, int>(r, c)
+                        Command = campoViewModel.ScopriCellaCommand, 
+                        CommandParameter = (r, c)
                     };
-
-                    
-
-                    var LongPress = new TouchBehavior // da trasformare in command
+                    var LongPress = new TouchBehavior
                     {
-                        LongPressCommand = ((CellaViewModel)BindingContext).ToggleBandierina(),
+                        LongPressCommand = campoViewModel.ToggleBandierinaCommand,
+                        LongPressCommandParameter = (r, c),
                         LongPressDuration = 700 //in millisecondi
 
                     };
 
+                    btn.Behaviors.Add(LongPress);
                     GameGrid.Add(btn, c, r);
                 }
             }

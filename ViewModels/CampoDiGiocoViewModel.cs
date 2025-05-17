@@ -21,8 +21,10 @@ namespace MauiApp1.ViewModels
         }
 
         [RelayCommand]
-        public void ScopriCella(int x, int y)
+        public void ScopriCella((int x, int y) Coordinates)
         {
+
+            var (x, y) = Coordinates;
             if (GiocoTerminato) return;
 
             var cella = Campo.Campo[x, y];
@@ -33,18 +35,15 @@ namespace MauiApp1.ViewModels
             if (cella.ContieneMina)
             {
                 GiocoTerminato = true;
-                return;
             }
-            
+
             if (cella.MineAdiacenti == 0)
             {
                 ScopriAdiacenti(x, y);
-                return;
             }
             else
             {
                 cella.Scoperta = true;
-                return;
             }
         }
 
@@ -76,11 +75,41 @@ namespace MauiApp1.ViewModels
                                 // ricorsione
                                 ScopriAdiacenti(nx, ny);
                             }
-                            vicina.Scoperta = true;
+                            vicina.ScopertaAutomaticamente = true;
                         }
                     }
                 }
             }
+        }
+
+        public string GetDisplayText(int x, int y)
+        {
+            var cella = Campo.Campo[x, y];
+
+            if (!cella.Scoperta)
+                return cella.HaBandierina ? "🚩" : "";
+
+            if (cella.ContieneMina)
+                return "💣";
+
+            if (cella.MineAdiacenti > 0)
+                return cella.MineAdiacenti.ToString();
+
+            return "";
+        }
+
+        [RelayCommand]
+        public void ToggleBandierina((int x, int y) coordinate)
+        {
+            var (x, y) = coordinate;
+            var cella = Campo.Campo[x, y];
+
+            // non toggliare se già scoperta
+            if (cella.Scoperta) return;
+
+            cella.HaBandierina = !cella.HaBandierina;
+
+            OnPropertyChanged(nameof(Campo)); 
         }
     }
 }
