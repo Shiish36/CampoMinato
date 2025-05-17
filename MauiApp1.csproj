@@ -36,6 +36,7 @@
 		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'windows'">10.0.17763.0</SupportedOSPlatformVersion>
 		<TargetPlatformMinVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'windows'">10.0.17763.0</TargetPlatformMinVersion>
 		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'tizen'">6.5</SupportedOSPlatformVersion>
+		<WindowsSdkPackageVersion>10.0.19041.53</WindowsSdkPackageVersion>
 	</PropertyGroup>
 
 	<ItemGroup>
@@ -67,6 +68,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
+<<<<<<< HEAD
 	  <Compile Update="Views\CustomGamePopup.xaml.cs">
 	    <DependentUpon>CustomGamePopup.xaml</DependentUpon>
 	  </Compile>
@@ -82,6 +84,16 @@
 	  <MauiXaml Update="Views\CampoDiGiocoView.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+=======
+	  <MauiXaml Update="Giocofacile.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	</ItemGroup>
+	<ItemGroup>
+	  <None Update="Home.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </None>
+>>>>>>> BranchRusso
 	</ItemGroup>
 
 </Project>
