@@ -1,12 +1,8 @@
 ﻿<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-<<<<<<< HEAD
              xmlns:Views="clr-namespace:MauiApp1.Views"
              x:Class="MauiApp1.Views.MainPage"
              xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
-=======
-             x:Class="MauiApp1.MainPage"
->>>>>>> BranchRusso
              BackgroundColor="#EFE5D1">
 
     <AbsoluteLayout>
@@ -15,44 +11,17 @@
                AbsoluteLayout.LayoutBounds="0,0,1,1"
                AbsoluteLayout.LayoutFlags="All"               
                />
-<<<<<<< HEAD
-=======
-
->>>>>>> BranchRusso
         <Label Text="Campo minato"
                FontSize="32"
                FontAttributes="Bold"
                TextColor="#6B3610"
                HorizontalOptions="Center"/>
 
-        <HorizontalStackLayout Spacing="10"  HorizontalOptions="Center" VerticalOptions="End">
-<<<<<<< HEAD
-            <Button Text="Facile" BackgroundColor="RosyBrown" Command="{Binding Source={RelativeSource AncestorType={x:Type Views:MainPage}}, Path=BtnFacileClickCommand}"/>
+            <HorizontalStackLayout Spacing="10"  HorizontalOptions="Center" VerticalOptions="End">
+                <Button Text="Facile" BackgroundColor="RosyBrown" Command="{Binding Source={RelativeSource AncestorType={x:Type Views:MainPage}}, Path=BtnFacileClickCommand}"/>
             <Button Text="Medio" BackgroundColor="RosyBrown" Command="{Binding Source={RelativeSource AncestorType={x:Type Views:MainPage}}, Path=BtnMedioClickCommand}"/>
             <Button Text="Difficile"  BackgroundColor="RosyBrown" Command="{Binding Source={RelativeSource AncestorType={x:Type Views:MainPage}}, Path=BtnDifficileClickCommand}"/>
             <Button Text="Personalizzato" BackgroundColor="RosyBrown" Command="{Binding Source={RelativeSource AncestorType={x:Type Views:MainPage}}, Path=BtnCustomClickCommand}"/>
         </HorizontalStackLayout>
-=======
-            <Grid>
-                <Button Text="Facile" BackgroundColor="RosyBrown" TextColor="beige" CornerRadius="12" />
-
-                <Button IsEnabled="false" Margin="0,6,0,0" BackgroundColor="beige" CornerRadius="12"/>
-            </Grid>
-            <Grid>
-                <Button Text="Medio" BackgroundColor="RosyBrown" TextColor="beige" CornerRadius="12"/>
-            <Button IsEnabled="false" Margin="0,6,0,0" BackgroundColor="beige" CornerRadius="12"/>
-            </Grid>
-            <Grid>
-                <Button Text="Difficile"  BackgroundColor="RosyBrown" TextColor="beige" CornerRadius="12"/>
-            <Button IsEnabled="false" Margin="0,6,0,0" BackgroundColor="beige"/>
-            </Grid>
-            <Grid>
-            <Button Text="Personalizzato" BackgroundColor="RosyBrown" TextColor="beige" CornerRadius="12"/>
-            <Button IsEnabled="false" Margin="0,6,0,0" BackgroundColor="beige" CornerRadius="12"/>
-            </Grid>
-        </HorizontalStackLayout>
-
-
->>>>>>> BranchRusso
     </AbsoluteLayout>
 </ContentPage>
