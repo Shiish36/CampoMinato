@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -37,13 +38,11 @@ namespace MauiApp1.ViewModels
                 GiocoTerminato = true;
             }
 
+            cella.Scoperta = true; // Scopri la cella
+            OnPropertyChanged(nameof(cella.Scoperta)); // Notifica il cambiamento
             if (cella.MineAdiacenti == 0)
             {
                 ScopriAdiacenti(x, y);
-            }
-            else
-            {
-                cella.Scoperta = true;
             }
         }
 
@@ -69,35 +68,20 @@ namespace MauiApp1.ViewModels
                         var vicina = Campo.Campo[nx, ny];
                         if (!vicina.Scoperta && !vicina.ContieneMina)
                         {
+                            vicina.Scoperta = true; // Scopri la cella
+                            OnPropertyChanged(nameof(vicina.Scoperta)); // Notifica il cambiamento
                             if (vicina.MineAdiacenti == 0)
                             {
-                                vicina.ScopertaAutomaticamente = true;
                                 // ricorsione
                                 ScopriAdiacenti(nx, ny);
                             }
-                            vicina.ScopertaAutomaticamente = true;
                         }
                     }
                 }
             }
         }
 
-        public string GetDisplayText(int x, int y)
-        {
-            var cella = Campo.Campo[x, y];
-
-            if (!cella.Scoperta)
-                return cella.HaBandierina ? "🚩" : "";
-
-            if (cella.ContieneMina)
-                return "💣";
-
-            if (cella.MineAdiacenti > 0)
-                return cella.MineAdiacenti.ToString();
-
-            return "";
-        }
-
+        
         [RelayCommand]
         public void ToggleBandierina((int x, int y) coordinate)
         {
@@ -108,8 +92,7 @@ namespace MauiApp1.ViewModels
             if (cella.Scoperta) return;
 
             cella.HaBandierina = !cella.HaBandierina;
-
-            OnPropertyChanged(nameof(Campo)); 
+            OnPropertyChanged(nameof(cella.HaBandierina)); // Notifica il cambiamento
         }
     }
 }

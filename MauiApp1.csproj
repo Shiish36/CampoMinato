@@ -71,6 +71,9 @@
 	  <Compile Update="Views\CustomGamePopup.xaml.cs">
 	   <DependentUpon>CustomGamePopup.xaml</DependentUpon>
 	  </Compile>
+	  <Compile Update="Views\MainPage.xaml.cs">
+		<DependentUpon>MainPage.xaml</DependentUpon>
+	  </Compile>
 	  <Compile Update="Views\CampoDiGiocoView.xaml.cs">
 	    <DependentUpon>CampoDiGiocoView.xaml</DependentUpon>
 	  </Compile>
@@ -79,6 +82,9 @@
 	<ItemGroup>
 	  <MauiXaml Update="Views\CustomGamePopup.xaml">
 	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\MainPage.xaml">
+		 <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Views\CampoDiGiocoView.xaml">
 	    <Generator>MSBuild:Compile</Generator>

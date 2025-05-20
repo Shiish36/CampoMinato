@@ -7,7 +7,7 @@
 
     <AbsoluteLayout>
         <Image Source="logoprojectwork.png" 
-               Aspect="AspectFill"
+               Aspect="AspectFit"
                AbsoluteLayout.LayoutBounds="0,0,1,1"
                AbsoluteLayout.LayoutFlags="All"               
                />
@@ -18,10 +18,10 @@
                HorizontalOptions="Center"/>
 
         <HorizontalStackLayout Spacing="10"  HorizontalOptions="Center" VerticalOptions="End">
-            <Button Text="Facile" BackgroundColor="RosyBrown" Command="{Binding Source={RelativeSource AncestorType={x:Type Views:MainPage}}, Path=BtnFacileClickCommand}"/>
-            <Button Text="Medio" BackgroundColor="RosyBrown" Command="{Binding Source={RelativeSource AncestorType={x:Type Views:MainPage}}, Path=BtnMedioClickCommand}"/>
-            <Button Text="Difficile"  BackgroundColor="RosyBrown" Command="{Binding Source={RelativeSource AncestorType={x:Type Views:MainPage}}, Path=BtnDifficileClickCommand}"/>
-            <Button Text="Personalizzato" BackgroundColor="RosyBrown" Command="{Binding Source={RelativeSource AncestorType={x:Type Views:MainPage}}, Path=BtnCustomClickCommand}"/>
+            <Button Text="Facile" BackgroundColor="SaddleBrown" Command="{Binding Source={RelativeSource AncestorType={x:Type Views:MainPage}}, Path=BtnFacileClickCommand}" CornerRadius="12"/>
+            <Button Text="Medio" TextColor ="Beige" BackgroundColor="SaddleBrown" Command="{Binding Source={RelativeSource AncestorType={x:Type Views:MainPage}}, Path=BtnMedioClickCommand}" CornerRadius="12"/>
+            <Button Text="Difficile"   TextColor ="Beige" BackgroundColor="SaddleBrown" Command="{Binding Source={RelativeSource AncestorType={x:Type Views:MainPage}}, Path=BtnDifficileClickCommand}" CornerRadius="12"/>
+            <Button Text="Personalizzato"  TextColor ="Beige" BackgroundColor="SaddleBrown" Command="{Binding Source={RelativeSource AncestorType={x:Type Views:MainPage}}, Path=BtnCustomClickCommand}" CornerRadius="12"/>
         </HorizontalStackLayout>
     </AbsoluteLayout>
 </ContentPage>

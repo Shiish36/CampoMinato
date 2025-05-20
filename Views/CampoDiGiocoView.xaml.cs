@@ -47,8 +47,17 @@ namespace MauiApp1.Views
                         LongPressCommandParameter = (r, c),
                         LongPressDuration = 700 //in millisecondi
 
-                    };
 
+                    };
+                    var multiBinding = new MultiBinding
+                    {
+                        Converter = new BoolToColorMultiConverter()
+                    };
+                    multiBinding.Bindings.Add(new Binding($"Campo.Campo[{r},{c}].Scoperta"));
+                    multiBinding.Bindings.Add(new Binding($"Campo.Campo[{r},{c}].HaBandierina"));
+
+                    btn.SetBinding(Button.TextProperty, new Binding(campoViewModel.Campo.Campo[r, c].ToString()));
+                    btn.SetBinding(Button.BackgroundColorProperty, multiBinding);
                     btn.Behaviors.Add(LongPress);
                     GameGrid.Add(btn, c, r);
                 }

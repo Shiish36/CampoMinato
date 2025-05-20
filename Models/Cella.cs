@@ -10,12 +10,20 @@ namespace MauiApp1.Models
         public bool ContieneMina { get; internal set; }
         public int MineAdiacenti { get; internal set; }
         public bool Scoperta { get; set; }
-        public bool ScopertaAutomaticamente { get; set; }
         public bool HaBandierina { get; set; }
-        public Cella()
+
+        public override string ToString() 
         {
-            ContieneMina = false;
-            MineAdiacenti = 0;
+            if (!Scoperta)
+                return HaBandierina ? "🚩" : "";
+            else
+                if (ContieneMina)
+                return "💣";
+            else
+            if(MineAdiacenti==0)
+                return String.Empty;
+            else
+                return MineAdiacenti.ToString();
         }
     }
 }
