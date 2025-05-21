@@ -12,37 +12,74 @@ namespace MauiApp1.ViewModels
 {
     public partial class CampoDiGiocoViewModel : ObservableObject
     {
-        public CampoDiGioco Campo { get; private set; }
-        public bool GiocoTerminato { get; private set; }
+        [ObservableProperty]
+        private CampoDiGioco _campo;
+
+        [ObservableProperty]
+        private bool _giocoTerminato;
+
+        [ObservableProperty]
+        private bool _giocoVinto;
 
         public CampoDiGiocoViewModel(CampoDiGioco campo)
         {
             Campo = campo;
             GiocoTerminato = false;
+            GiocoVinto = false;
         }
 
         [RelayCommand]
-        public void ScopriCella((int x, int y) Coordinates)
+        public void ScopriCella((int x, int y) coordinates)
         {
-
-            var (x, y) = Coordinates;
             if (GiocoTerminato) return;
 
+            var (x, y) = coordinates;
             var cella = Campo.Campo[x, y];
 
             if (cella.Scoperta || cella.HaBandierina)
                 return;
 
+            cella.Scoperta = true;
+
             if (cella.ContieneMina)
             {
                 GiocoTerminato = true;
+                // Mostra tutte le mine
+                RivelareTutteLeMine();
+                return;
             }
 
-            cella.Scoperta = true; // Scopri la cella
-            OnPropertyChanged(nameof(cella.Scoperta)); // Notifica il cambiamento
             if (cella.MineAdiacenti == 0)
             {
                 ScopriAdiacenti(x, y);
+            }
+
+            VerificaVittoria();
+        }
+
+        private void VerificaVittoria()
+        {
+            foreach (var cella in Campo.Campo)
+            {
+                if (!cella.ContieneMina && !cella.Scoperta)
+                    return;
+            }
+
+            GiocoVinto = true;
+            GiocoTerminato = true;
+        }
+
+        private void RivelareTutteLeMine()
+        {
+            for (int i = 0; i < Campo.LunghezzaCampo; i++)
+            {
+                for (int j = 0; j < Campo.LarghezzaCampo; j++)
+                {
+                    if (Campo.Campo[i, j].ContieneMina)
+                    {
+                        Campo.Campo[i, j].Scoperta = true;
+                    }
+                }
             }
         }
 
@@ -55,25 +92,36 @@ namespace MauiApp1.ViewModels
 
         private void ScopriAdiacenti(int x, int y)
         {
-            for (int dx = -1; dx <= 1; dx++)
-            {
-                for (int dy = -1; dy <= 1; dy++)
-                {
-                    int nx = x + dx;
-                    int ny = y + dy;
+            // usa una coda invece della ricorsione per evitare stack overflow
+            var queue = new Queue<(int, int)>();
+            queue.Enqueue((x, y));
 
-                    if (nx >= 0 && nx < Campo.LunghezzaCampo &&
-                        ny >= 0 && ny < Campo.LarghezzaCampo)
+            while (queue.Count > 0)
+            {
+                var (currentX, currentY) = queue.Dequeue();
+                var currentCell = Campo.Campo[currentX, currentY];
+
+                // scopri tutte le celle adiacenti
+                for (int dx = -1; dx <= 1; dx++)
+                {
+                    for (int dy = -1; dy <= 1; dy++)
                     {
-                        var vicina = Campo.Campo[nx, ny];
-                        if (!vicina.Scoperta && !vicina.ContieneMina)
+                        int nx = currentX + dx;
+                        int ny = currentY + dy;
+
+                        if (nx >= 0 && nx < Campo.LunghezzaCampo &&
+                            ny >= 0 && ny < Campo.LarghezzaCampo)
                         {
-                            vicina.Scoperta = true; // Scopri la cella
-                            OnPropertyChanged(nameof(vicina.Scoperta)); // Notifica il cambiamento
-                            if (vicina.MineAdiacenti == 0)
+                            var neighbor = Campo.Campo[nx, ny];
+
+                            if (!neighbor.Scoperta && !neighbor.ContieneMina && !neighbor.HaBandierina)
                             {
-                                // ricorsione
-                                ScopriAdiacenti(nx, ny);
+                                neighbor.Scoperta = true;
+
+                                if (neighbor.MineAdiacenti == 0)
+                                {
+                                    queue.Enqueue((nx, ny));
+                                }
                             }
                         }
                     }
@@ -81,7 +129,7 @@ namespace MauiApp1.ViewModels
             }
         }
 
-        
+
         [RelayCommand]
         public void ToggleBandierina((int x, int y) coordinate)
         {
