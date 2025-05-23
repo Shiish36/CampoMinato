@@ -1,5 +1,5 @@
 ﻿using Microsoft.Extensions.Logging;
-
+using CommunityToolkit.Maui;
 namespace MauiApp1
 {
     public static class MauiProgram

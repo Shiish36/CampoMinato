@@ -5,6 +5,7 @@
              x:Class="MauiApp1.App">
     <Application.Resources>
         <ResourceDictionary>
+            <local:BoolToColorMultiConverter x:Key="BoolToColorConverter" />
             <ResourceDictionary.MergedDictionaries>
                 <ResourceDictionary Source="Resources/Styles/Colors.xaml" />
                 <ResourceDictionary Source="Resources/Styles/Styles.xaml" />
