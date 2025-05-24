@@ -12,16 +12,16 @@ namespace MauiApp1.Views
         private void OnConfirmClicked(object sender, EventArgs e)
         {
             int rows = int.Parse(RowsEntry.Text);
-            int cols = int.Parse(ColumnsEntry.Text);
+            int columns = int.Parse(ColumnsEntry.Text);
             int mines = int.Parse(MinesEntry.Text);
 
-            if (mines >= rows * cols)
+            if (mines >= rows * columns)
             {
-                mines = rows * cols - 1; //imposto un valore massimo di mine se le mine superano il numero di celle
+                mines = rows * columns - 1; //imposto un valore massimo di mine se le mine superano il numero di celle
             }
 
             // Restituisco i valori come tupla
-            Close((rows, cols, mines));
+            Close((rows, columns, mines));
         }
     }
 }

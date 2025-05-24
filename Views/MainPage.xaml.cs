@@ -14,23 +14,25 @@ namespace MauiApp1.Views
         [RelayCommand]
         public async Task BtnFacileClick()
         {
-            await Navigation.PushAsync(new Views.CampoDiGiocoView(new Models.CampoDiGioco(8, 8, 10)));
+            Models.CampoDiGioco campoDiGioco = new Models.CampoDiGioco(3, 3, 1);
+            CampoDiGiocoView c = new CampoDiGiocoView(campoDiGioco);
+            await Navigation.PushAsync(c);
         }
 
         [RelayCommand]
-        public async Task BtnMedioClickCommand()
+        public async Task BtnMedioClick()
         {
             await Navigation.PushAsync(new Views.CampoDiGiocoView(new Models.CampoDiGioco(16, 16, 40)));
         }
 
         [RelayCommand]
-        public async Task BtnDifficileClickCommand()
+        public async Task BtnDifficileClick()
         {
             await Navigation.PushAsync(new Views.CampoDiGiocoView(new Models.CampoDiGioco(16, 30, 99)));
         }
 
         [RelayCommand]
-        public async Task BtnCustomClickCommand()
+        public async Task BtnCustomClick()
         {
             var result = await Shell.Current.ShowPopupAsync(new CustomGamePopup());
 

@@ -1,5 +1,7 @@
 ﻿using CommunityToolkit.Maui.Behaviors;
+using MauiApp1.Structure;
 using MauiApp1.ViewModels;
+using System.Diagnostics;
 namespace MauiApp1.Views
 {
     public partial class CampoDiGiocoView : ContentPage
@@ -19,7 +21,8 @@ namespace MauiApp1.Views
             GameGrid.RowDefinitions.Clear();
             GameGrid.ColumnDefinitions.Clear();
             GameGrid.Children.Clear();
-
+            GameGrid.RowSpacing = 3; 
+            GameGrid.ColumnSpacing = 3;
             // Usa Star per dimensioni uniformi
             for (int r = 0; r < campoViewModel.Campo.LunghezzaCampo; r++)
                 GameGrid.RowDefinitions.Add(new RowDefinition { Height = GridLength.Star });
@@ -43,14 +46,22 @@ namespace MauiApp1.Views
                     // Binding per il testo
                     btn.SetBinding(Button.TextProperty, new Binding($"Campo.Campo[{r},{c}]"));
 
-                    // MultiBinding per il colore di sfondo
                     var multiBinding = new MultiBinding
                     {
                         Converter = new BoolToColorMultiConverter()
                     };
-                    multiBinding.Bindings.Add(new Binding($"Campo.Campo[{r},{c}].Scoperta"));
-                    multiBinding.Bindings.Add(new Binding($"Campo.Campo[{r},{c}].HaBandierina"));
 
+                    // Binding per Scoperta (usa la cella come Source, non il ViewModel)
+                    multiBinding.Bindings.Add(new Binding(
+                        path: "Scoperta",  // <-- Nota: ora il path è solo il nome della proprietà!
+                        source: cella      // <-- Source è la cella stessa, non il ViewModel
+                    ));
+
+                    // Binding per HaBandierina
+                    multiBinding.Bindings.Add(new Binding(
+                        path: "HaBandierina",
+                        source: cella
+                    ));
                     btn.SetBinding(Button.BackgroundColorProperty, multiBinding);
 
                     var longPress = new TouchBehavior
@@ -61,7 +72,17 @@ namespace MauiApp1.Views
                     };
 
                     btn.Behaviors.Add(longPress);
-                    GameGrid.Add(btn, c, r);
+                    
+                    if (btn != null)
+                    {
+                        Grid.SetColumn(btn, c);
+                        Grid.SetRow(btn, r);
+                        GameGrid.Add(btn);
+                    }
+                    else
+                    {
+                        Debug.WriteLine("ERRORE: btn è null!");
+                    }
                 }
             }
         }
