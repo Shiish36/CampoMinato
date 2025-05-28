@@ -17,7 +17,7 @@
                TextColor="#6B3610"
                HorizontalOptions="Center"/>
 
-        <HorizontalStackLayout Spacing="10"  HorizontalOptions="Center" VerticalOptions="End">
+        <HorizontalStackLayout Spacing="10"  HorizontalOptions="Center" VerticalOptions="End" AbsoluteLayout.LayoutBounds="20,20,200,200" >
             <Button Text="Facile" BackgroundColor="SaddleBrown" Command="{Binding Source={RelativeSource AncestorType={x:Type Views:MainPage}}, Path=BtnFacileClickCommand}" CornerRadius="12"/>
             <Button Text="Medio" TextColor ="Beige" BackgroundColor="SaddleBrown" Command="{Binding Source={RelativeSource AncestorType={x:Type Views:MainPage}}, Path=BtnMedioClickCommand}" CornerRadius="12"/>
             <Button Text="Difficile"   TextColor ="Beige" BackgroundColor="SaddleBrown" Command="{Binding Source={RelativeSource AncestorType={x:Type Views:MainPage}}, Path=BtnDifficileClickCommand}" CornerRadius="12"/>
