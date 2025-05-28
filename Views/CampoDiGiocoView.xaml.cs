@@ -1,5 +1,6 @@
 ﻿using CommunityToolkit.Maui.Behaviors;
-using MauiApp1.Structure;
+using CommunityToolkit.Mvvm.Input;
+using MauiApp1.Models;
 using MauiApp1.ViewModels;
 using System.Diagnostics;
 namespace MauiApp1.Views
@@ -21,7 +22,7 @@ namespace MauiApp1.Views
             GameGrid.RowDefinitions.Clear();
             GameGrid.ColumnDefinitions.Clear();
             GameGrid.Children.Clear();
-            GameGrid.RowSpacing = 3; 
+            GameGrid.RowSpacing = 3;
             GameGrid.ColumnSpacing = 3;
             // Usa Star per dimensioni uniformi
             for (int r = 0; r < campoViewModel.Campo.LunghezzaCampo; r++)
@@ -34,45 +35,21 @@ namespace MauiApp1.Views
             {
                 for (int c = 0; c < campoViewModel.Campo.LarghezzaCampo; c++)
                 {
-                    var cella = campoViewModel.Campo.Campo[r, c];
+                    Cella cella = campoViewModel.Campo.Campo[r, c];
 
-                    var btn = new Button
+                    Button btn = new Button
                     {
                         Text = " ",
-                        Command = campoViewModel.ScopriCellaCommand,
-                        CommandParameter = (r, c)
+                        Command = campoViewModel.ScopriCellaCommand
                     };
-
-                    // Binding per il testo
-                    btn.SetBinding(Button.TextProperty, new Binding($"Campo.Campo[{r},{c}]"));
-
-                    var multiBinding = new MultiBinding
-                    {
-                        Converter = new BoolToColorMultiConverter()
-                    };
-
-                    // Binding per Scoperta (usa la cella come Source, non il ViewModel)
-                    multiBinding.Bindings.Add(new Binding(
-                        path: "Scoperta",  // <-- Nota: ora il path è solo il nome della proprietà!
-                        source: cella      // <-- Source è la cella stessa, non il ViewModel
-                    ));
-
-                    // Binding per HaBandierina
-                    multiBinding.Bindings.Add(new Binding(
-                        path: "HaBandierina",
-                        source: cella
-                    ));
-                    btn.SetBinding(Button.BackgroundColorProperty, multiBinding);
-
                     var longPress = new TouchBehavior
                     {
-                        LongPressCommand = campoViewModel.ToggleBandierinaCommand,
-                        LongPressCommandParameter = (r, c),
+                        LongPressCommand = campoViewModel.ToggleBandierinaCommand,                        
                         LongPressDuration = 700
                     };
 
                     btn.Behaviors.Add(longPress);
-                    
+
                     if (btn != null)
                     {
                         Grid.SetColumn(btn, c);

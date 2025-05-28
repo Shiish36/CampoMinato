@@ -47,6 +47,19 @@ namespace MauiApp1.Models
                 _quantitàMine = value;
             }
         }
+        private int _mineScoperte=0;
+        public int MineScoperte
+        {
+            get { return _mineScoperte; }
+            set
+            {
+                if (value < 0)
+                {
+                    throw new ArgumentOutOfRangeException("value");
+                }
+                _mineScoperte = value;
+            }
+        }
         public Cella[,] Campo { get; private set; } //grid per la gestione delle celle, cioè il campo di gioco
 
         public CampoDiGioco(int lunghezza, int larghezza, int quantitàMine)

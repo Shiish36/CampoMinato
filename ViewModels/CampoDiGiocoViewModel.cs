@@ -12,61 +12,115 @@ namespace MauiApp1.ViewModels
 {
     public partial class CampoDiGiocoViewModel : ObservableObject
     {
-        [ObservableProperty]
         private CampoDiGioco _campo;
 
-        [ObservableProperty]
+        public CampoDiGioco Campo
+        {
+            get => _campo;
+            set
+            {
+                if (_campo != value)
+                {
+                    _campo = value;
+                }
+            }
+        }
+
         private bool _giocoTerminato;
 
-        [ObservableProperty]
+        public bool GiocoTerminato 
+        {
+            get => _giocoTerminato;
+            set
+            {
+                if (_giocoTerminato != value)
+                {
+                    _giocoTerminato = value;
+                    OnPropertyChanged(nameof(GiocoTerminato));
+                }
+            }
+        }
+
         private bool _giocoVinto;
+        public bool GiocoVinto 
+        {
+            get => _giocoVinto;
+            set
+            {
+                if (_giocoVinto != value)
+                {
+                    _giocoVinto = value;
+                    OnPropertyChanged(nameof(GiocoVinto));
+                }
+            }
+        }
 
         public CampoDiGiocoViewModel(CampoDiGioco campo)
         {
+            if(campo == null) throw new ArgumentNullException(nameof(campo), "Il campo di gioco non può essere nullo.");
             Campo = campo;
             GiocoTerminato = false;
             GiocoVinto = false;
+            if(_campo==null) throw new ArgumentNullException(nameof(_campo), "Il campo di gioco non può essere nullo."); // non serve ma mi da errore ed é assai fastidioso.
         }
 
         [RelayCommand]
-        public void ScopriCella((int x, int y) coordinates)
+        private void ScopriCella(object sender)
         {
-            if (GiocoTerminato) return;
-
-            var (x, y) = coordinates;
-            var cella = Campo.Campo[x, y];
-
-            if (cella.Scoperta || cella.HaBandierina)
-                return;
-
-            cella.Scoperta = true;
-
-            if (cella.ContieneMina)
+            if (sender is Button btn)
             {
-                GiocoTerminato = true;
-                // Mostra tutte le mine
-                RivelareTutteLeMine();
-                return;
-            }
+                // Recupera la riga e la colonna dalla griglia (o da proprietà del btn)
+                int y = Grid.GetRow(btn);
+                int x = Grid.GetColumn(btn);
+                var cella = Campo.Campo[x, y];
 
-            if (cella.MineAdiacenti == 0)
-            {
-                ScopriAdiacenti(x, y);
-            }
+                if (cella.Scoperta || cella.HaBandierina)
+                    return;
 
-            VerificaVittoria();
+                if (!cella.ContieneMina)
+                {
+                    cella.Scoperta = true;
+                    Campo.MineScoperte++;
+                    btn.Text = cella.ToString();
+                    Color backgroundColor;
+                    if (cella.Scoperta)
+                    {
+                        backgroundColor = Color.Parse("#D3D3D3"); // Grigio chiaro per le celle scoperte
+                    }
+                    else if (cella.HaBandierina)
+                    {
+                        backgroundColor = Color.Parse("#FF0000"); // Rosso per le celle con bandierina
+                    }
+                    else
+                    {
+                        backgroundColor = Color.Parse("#FFFFFF"); // Bianco per le celle non scoperte
+                    }
+                    btn.BackgroundColor = backgroundColor;
+                    OnPropertyChanged(nameof(cella.Scoperta));
+                    return;
+                }
+                if (cella.MineAdiacenti == 0)
+                {
+                    ScopriAdiacenti(x, y);
+                }
+
+                VerificaVittoria();
+                if (cella.ContieneMina)
+                {
+                    GiocoTerminato = true;
+                    RivelareTutteLeMine();
+                }
+                sender = btn; // Aggiorna il sender per il binding
+            }
         }
 
         private void VerificaVittoria()
         {
-            foreach (var cella in Campo.Campo)
+            if (Campo.QuantitàMine == Campo.MineScoperte)
             {
-                if (!cella.ContieneMina && !cella.Scoperta)
-                    return;
-            }
-
-            GiocoVinto = true;
-            GiocoTerminato = true;
+                GiocoVinto = true;
+                GiocoTerminato = true;
+            }            
         }
 
         private void RivelareTutteLeMine()
@@ -117,6 +171,7 @@ namespace MauiApp1.ViewModels
                             if (!neighbor.Scoperta && !neighbor.ContieneMina && !neighbor.HaBandierina)
                             {
                                 neighbor.Scoperta = true;
+                                OnPropertyChanged(nameof(neighbor.Scoperta));
 
                                 if (neighbor.MineAdiacenti == 0)
                                 {
@@ -129,18 +184,22 @@ namespace MauiApp1.ViewModels
             }
         }
 
-
         [RelayCommand]
-        public void ToggleBandierina((int x, int y) coordinate)
+        public void ToggleBandierina(object sender)
         {
-            var (x, y) = coordinate;
-            var cella = Campo.Campo[x, y];
+            if (sender is Button btn)
+            {
+                // Recupera la riga e la colonna dalla griglia (o da proprietà del btn)
+                int y = Grid.GetRow(btn);
+                int x = Grid.GetColumn(btn);
+                var cella = Campo.Campo[x, y];
 
-            // non toggliare se già scoperta
-            if (cella.Scoperta) return;
+                // non toggliare se già scoperta
+                if (cella.Scoperta) return;
 
-            cella.HaBandierina = !cella.HaBandierina;
-            OnPropertyChanged(nameof(cella.HaBandierina)); // Notifica il cambiamento
+                cella.HaBandierina = !cella.HaBandierina;
+                OnPropertyChanged(nameof(cella.HaBandierina)); // Notifica il cambiamento
+            }
         }
     }
 }
