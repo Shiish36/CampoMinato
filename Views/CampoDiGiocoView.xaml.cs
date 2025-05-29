@@ -7,6 +7,7 @@ namespace MauiApp1.Views
 {
     public partial class CampoDiGiocoView : ContentPage
     {
+        Random rnd = new Random();
         ViewModels.CampoDiGiocoViewModel campoViewModel;
         TapGestureRecognizer tapGesture = new TapGestureRecognizer();
         public CampoDiGiocoView(Models.CampoDiGioco model)
@@ -47,7 +48,8 @@ namespace MauiApp1.Views
                         LongPressCommand = campoViewModel.ToggleBandierinaCommand,                        
                         LongPressDuration = 700
                     };
-
+                    int a = rnd.Next(0, 1);
+                    if (a == 1) btn.Clicked += BtnClick; else btn.Clicked += BtnClick2;
                     btn.Behaviors.Add(longPress);
 
                     if (btn != null)
@@ -61,6 +63,27 @@ namespace MauiApp1.Views
                         Debug.WriteLine("ERRORE: btn è null!");
                     }
                 }
+            }
+
+        }
+        public void BtnClick(object sender, EventArgs eventArgs)
+        {
+            if(sender is Button)
+            {
+                Button btw = (Button)sender;
+                campoViewModel.ScopriCellaCommand.Execute(btw);
+                sender = btw;
+            }
+        }
+
+        public void BtnClick2(object sender, EventArgs eventArgs) 
+        {
+
+            if (sender is Button)
+            {
+                Button btw = (Button)sender;
+                campoViewModel.ToggleBandierinaCommand.Execute(btw);
+                sender = btw;
             }
         }
     }
