@@ -199,8 +199,6 @@ namespace MauiApp1.ViewModels
 
                 cella.HaBandierina = !cella.HaBandierina;
                 OnPropertyChanged(nameof(cella.HaBandierina)); // Notifica il cambiamento
-                btn.BackgroundColor = Color.Parse("#FF0000");
-                btn.Text=cella.ToString();
             }
         }
     }
