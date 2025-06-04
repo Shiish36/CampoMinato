@@ -40,16 +40,17 @@ namespace MauiApp1.Views
 
                     Button btn = new Button
                     {
-                        Text = " ",
-                        Command = campoViewModel.ScopriCellaCommand
+                        Text = " "
                     };
+                    btn.Command = campoViewModel.ScopriCellaCommand;
+                    btn.CommandParameter = btn;
                     var longPress = new TouchBehavior
                     {
-                        LongPressCommand = campoViewModel.ToggleBandierinaCommand,                        
-                        LongPressDuration = 700
+                        
                     };
-                    int a = rnd.Next(0, 1);
-                    if (a == 1) btn.Clicked += BtnClick; else btn.Clicked += BtnClick2;
+                    longPress.LongPressCommand = campoViewModel.ToggleBandierinaCommand;
+                    longPress.LongPressCommandParameter = btn;
+                    longPress.LongPressDuration = 700;
                     btn.Behaviors.Add(longPress);
 
                     if (btn != null)
@@ -66,25 +67,6 @@ namespace MauiApp1.Views
             }
 
         }
-        public void BtnClick(object sender, EventArgs eventArgs)
-        {
-            if(sender is Button)
-            {
-                Button btw = (Button)sender;
-                campoViewModel.ScopriCellaCommand.Execute(btw);
-                sender = btw;
-            }
-        }
-
-        public void BtnClick2(object sender, EventArgs eventArgs) 
-        {
-
-            if (sender is Button)
-            {
-                Button btw = (Button)sender;
-                campoViewModel.ToggleBandierinaCommand.Execute(btw);
-                sender = btw;
-            }
         }
     }
 }
